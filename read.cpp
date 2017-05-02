@@ -54,7 +54,7 @@ int main()
         	  count++;
 		  }
 	    }
-	    if(StringFind(szTest,"DST:")!=-1)//在这里改要查找的目标 
+	    if(StringFind(szTest,"DST:")!=-1)//
 		{
 		
 		  loc1=StringFind(szTest,"DST:")+4;
