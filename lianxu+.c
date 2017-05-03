@@ -128,7 +128,7 @@ while(printf("请输入要统计的数据名(区分大小写  输入ctrl+Z结束程序)\n")&&scanf("%
     	if(a[count][0]==a[count+1][0]&&a[count][1]==a[count+1][1]&a[count][2]==a[count+1][2])
 		{   
 		    count++;
-			time1=time1+1;grop1[time1][0]+=2;grop1[time1][2]=count;
+			time1=time1+1;grop1[time1][0]+=2;//grop1[time1][2]=count;
 			grop1[time1][1]=a[count][0];
 			while(a[count][0]==a[count+1][0]&&a[count][1]==a[count+1][1]&a[count][2]==a[count+1][2])
 			{
@@ -145,7 +145,7 @@ if(choice==1)
 	for(count=1;count<=time1;count++)
 	{
 		//printf("第%d次连续重复，重复出现的数据是%d,重复出现了%d次\n",count,grop1[count][1],grop1[count][0]);//如果觉得打印太慢了可以吧这行注释掉 
-		fprintf(fptr,"%d：  %d  在第%d行\n",count,grop1[count][0],grop1[count][2]);
+		fprintf(fptr,"%d：  %d  \n",count,grop1[count][0]/*,grop1[count][2]*/);
 	}
     } 
 	fclose(fp); 
