@@ -1,9 +1,1000 @@
-Inject:  0   ID:8 CYC:0 SRC:14 DST:26 ADR:0xffffffaf TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 33
-Inject:  0   ID:9 CYC:0 SRC:16 DST:26 ADR:0xfffffffa TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 34
-Inject:  0   ID:7 CYC:0 SRC:17 DST:26 ADR:0xfffffffa TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 32
-Inject:  0   ID:8 CYC:0 SRC:14 DST:26 ADR:0x0085acc0 TYP:InvalidateReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 33
-Inject:  0   ID:9 CYC:0 SRC:16 DST:26 ADR:0x0085acc0 TYP:InvalidateResp SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 34
-Inject:  0   ID:7 CYC:0 SRC:17 DST:26 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 32
-Inject:  0   ID:8 CYC:0 SRC:14 DST:26 ADR:0x0085acc0 TYP:DowngradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 33
-Inject:  0   ID:9 CYC:0 SRC:16 DST:26 ADR:0x0085acc0 TYP:DowngradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 34
-Inject:  0   ID:7 CYC:0 SRC:17 DST:26 ADR:0x0085acc0 TYP:DowngradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 32
+Inject:  0   ID:1 CYC:0 SRC:3 DST:21 ADR:0x00d15b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 27
+Inject:  0   ID:1 CYC:0 SRC:3 DST:21 ADR:0x00d15b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 27
+Inject:  0   ID:11 CYC:0 SRC:5 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 36
+Inject:  0   ID:3 CYC:0 SRC:13 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 29
+Inject:  0   ID:8 CYC:0 SRC:14 DST:26 ADR:0x0085acc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 33
+Inject:  0   ID:9 CYC:0 SRC:16 DST:26 ADR:0x0085acc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 34
+Inject:  0   ID:7 CYC:0 SRC:17 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 32
+Inject:  0   ID:10 CYC:0 SRC:18 DST:26 ADR:0x0085acc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 35
+Inject:  0   ID:2 CYC:0 SRC:19 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 28
+Inject:  0   ID:13 CYC:0 SRC:20 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 38
+Inject:  0   ID:5 CYC:0 SRC:21 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 31
+Inject:  0   ID:12 CYC:0 SRC:22 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 37
+Inject:  0   ID:4 CYC:0 SRC:23 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 30
+Inject:  0   ID:14 CYC:0 SRC:42 DST:0 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  0   ID:6 CYC:0 SRC:50 DST:9 ADR:0x00372880 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1   ID:15 CYC:1 SRC:11 DST:20 ADR:0x00854f80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 39
+Inject:  1   ID:0 CYC:0 SRC:23 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 26
+Inject:  3   ID:16 CYC:3 SRC:19 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 42
+Inject:  4   ID:17 CYC:4 SRC:13 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 43
+Inject:  6   ID:18 CYC:6 SRC:7 DST:4 ADR:0x1f1078c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  8   ID:19 CYC:8 SRC:8 DST:50 ADR:0x00372880 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 45
+Inject:  8   ID:20 CYC:8 SRC:47 DST:61 ADR:0x1f3ef8c0 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 156
+Inject:  11   ID:21 CYC:11 SRC:9 DST:50 ADR:0x003728c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 46
+Inject:  18   ID:22 CYC:18 SRC:17 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 49
+Inject:  19   ID:23 CYC:19 SRC:4 DST:55 ADR:0x00337840 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 50
+Inject:  22   ID:25 CYC:22 SRC:19 DST:31 ADR:0x1f4538c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  22   ID:24 CYC:22 SRC:59 DST:24 ADR:0x1f37b880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  24   ID:27 CYC:24 SRC:21 DST:3 ADR:0x00d15b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  24   ID:38 CYC:24 SRC:23 DST:20 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  24   ID:35 CYC:24 SRC:26 DST:18 ADR:0x0085acc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  24   ID:31 CYC:24 SRC:42 DST:21 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  25   ID:39 CYC:25 SRC:20 DST:11 ADR:0x00854f80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  25   ID:37 CYC:24 SRC:23 DST:22 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  25   ID:34 CYC:24 SRC:26 DST:16 ADR:0x0085acc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  26   ID:41 CYC:26 SRC:20 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 58
+Inject:  26   ID:40 CYC:26 SRC:22 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 57
+Inject:  26   ID:32 CYC:24 SRC:23 DST:17 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  26   ID:33 CYC:24 SRC:26 DST:14 ADR:0x0085acc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  27   ID:29 CYC:24 SRC:23 DST:13 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  27   ID:42 CYC:27 SRC:49 DST:19 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  28   ID:44 CYC:28 SRC:2 DST:49 ADR:0x00331200 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 62
+Inject:  28   ID:28 CYC:24 SRC:23 DST:19 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  29   ID:26 CYC:24 SRC:23 DST:23 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  32   ID:36 CYC:24 SRC:42 DST:5 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  32   ID:45 CYC:32 SRC:50 DST:8 ADR:0x00372880 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  35   ID:46 CYC:35 SRC:50 DST:9 ADR:0x003728c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  38   ID:47 CYC:38 SRC:3 DST:21 ADR:0x00d15b80 TYP:UpgradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:3 48 72 218
+Inject:  39   ID:30 CYC:24 SRC:49 DST:23 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  40   ID:43 CYC:28 SRC:49 DST:13 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  42   ID:49 CYC:42 SRC:49 DST:17 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  43   ID:51 CYC:43 SRC:8 DST:50 ADR:0x003728c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 76
+Inject:  45   ID:54 CYC:45 SRC:23 DST:3 ADR:0x1f3c37c0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 80
+Inject:  45   ID:52 CYC:45 SRC:61 DST:55 ADR:0x1f1f77c0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 78
+Inject:  46   ID:53 CYC:45 SRC:23 DST:19 ADR:0x1f2537c0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 79
+Inject:  49   ID:55 CYC:49 SRC:1 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 81
+Inject:  49   ID:56 CYC:49 SRC:61 DST:15 ADR:0x1f38f880 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 82
+Inject:  50   ID:58 CYC:50 SRC:49 DST:20 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  51   ID:59 CYC:51 SRC:61 DST:39 ADR:0x1f1677c0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 84
+Inject:  52   ID:65 CYC:52 SRC:23 DST:11 ADR:0x1f1cb880 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 89
+Inject:  52   ID:62 CYC:52 SRC:49 DST:2 ADR:0x00331200 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  52   ID:64 CYC:52 SRC:61 DST:55 ADR:0x1f1f7880 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 88
+Inject:  53   ID:63 CYC:52 SRC:23 DST:19 ADR:0x1f253880 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 87
+Inject:  53   ID:60 CYC:52 SRC:61 DST:39 ADR:0x1f167780 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 85
+Inject:  54   ID:61 CYC:52 SRC:23 DST:3 ADR:0x1f3c3880 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 86
+Inject:  54   ID:50 CYC:43 SRC:55 DST:4 ADR:0x00337840 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  55   ID:66 CYC:55 SRC:2 DST:27 ADR:0x00d1b040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 70
+Inject:  56   ID:67 CYC:56 SRC:21 DST:55 ADR:0x00337940 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:2 90 227
+Inject:  58   ID:68 CYC:58 SRC:4 DST:55 ADR:0x00337880 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 92
+Inject:  58   ID:48 CYC:38 SRC:21 DST:2 ADR:0x00d15b80 TYP:InvalidateReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  58   ID:69 CYC:58 SRC:61 DST:23 ADR:0x1f3d7880 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 93
+Inject:  60   ID:71 CYC:60 SRC:61 DST:39 ADR:0x1f167880 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 95
+Inject:  61   ID:57 CYC:50 SRC:49 DST:22 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  62   ID:72 CYC:62 SRC:21 DST:47 ADR:0x00d15b80 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 199
+Inject:  65   ID:73 CYC:65 SRC:13 DST:26 ADR:0x0085acc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 99
+Inject:  65   ID:74 CYC:65 SRC:23 DST:26 ADR:0x0085acc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 100
+Inject:  67   ID:75 CYC:67 SRC:4 DST:27 ADR:0x00d1b000 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 101
+Inject:  67   ID:76 CYC:67 SRC:50 DST:8 ADR:0x003728c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  69   ID:80 CYC:69 SRC:3 DST:26 ADR:0x1f3c37c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  69   ID:77 CYC:69 SRC:9 DST:57 ADR:0x00d39440 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 104 239
+Inject:  69   ID:79 CYC:69 SRC:19 DST:15 ADR:0x1f2537c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  69   ID:78 CYC:69 SRC:55 DST:12 ADR:0x1f1f77c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  73   ID:81 CYC:73 SRC:42 DST:1 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  75   ID:83 CYC:75 SRC:11 DST:31 ADR:0x1f1df7c0 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 108 241
+Inject:  75   ID:70 CYC:58 SRC:27 DST:2 ADR:0x00d1b040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  75   ID:84 CYC:75 SRC:39 DST:7 ADR:0x1f1677c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  76   ID:86 CYC:76 SRC:3 DST:26 ADR:0x1f3c3880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  76   ID:89 CYC:76 SRC:11 DST:10 ADR:0x1f1cb880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  76   ID:87 CYC:76 SRC:19 DST:15 ADR:0x1f253880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  76   ID:85 CYC:76 SRC:39 DST:7 ADR:0x1f167780 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  76   ID:88 CYC:76 SRC:55 DST:12 ADR:0x1f1f7880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  80   ID:90 CYC:80 SRC:55 DST:61 ADR:0x00337940 TYP:ReadReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 212
+Inject:  81   ID:91 CYC:81 SRC:8 DST:50 ADR:0x00372800 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 110
+Inject:  81   ID:82 CYC:73 SRC:15 DST:25 ADR:0x1f38f880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  82   ID:93 CYC:82 SRC:23 DST:27 ADR:0x1f3d7880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  84   ID:94 CYC:84 SRC:11 DST:31 ADR:0x1f1df880 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 111 251
+Inject:  84   ID:95 CYC:84 SRC:39 DST:7 ADR:0x1f167880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  87   ID:96 CYC:87 SRC:7 DST:39 ADR:0x1f167840 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 112 253
+Inject:  88   ID:97 CYC:88 SRC:23 DST:51 ADR:0x1f1337c0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 114
+Inject:  89   ID:98 CYC:89 SRC:23 DST:51 ADR:0x1f133780 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 115
+Inject:  89   ID:100 CYC:89 SRC:26 DST:23 ADR:0x0085acc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  90   ID:99 CYC:89 SRC:26 DST:13 ADR:0x0085acc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  91   ID:101 CYC:91 SRC:27 DST:4 ADR:0x00d1b000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  92   ID:102 CYC:92 SRC:23 DST:59 ADR:0x1f43b8c0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 120
+Inject:  93   ID:103 CYC:93 SRC:14 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 122
+Inject:  93   ID:105 CYC:93 SRC:16 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 124
+Inject:  93   ID:106 CYC:93 SRC:18 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 125
+Inject:  93   ID:92 CYC:82 SRC:55 DST:4 ADR:0x00337880 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  93   ID:104 CYC:93 SRC:57 DST:5 ADR:0x00d39440 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 222
+Inject:  97   ID:107 CYC:97 SRC:23 DST:51 ADR:0x1f133880 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 127
+Inject:  99   ID:108 CYC:99 SRC:31 DST:61 ADR:0x1f1df7c0 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 224
+Inject:  103   ID:109 CYC:103 SRC:7 DST:39 ADR:0x1f167800 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 131
+Inject:  105   ID:110 CYC:105 SRC:50 DST:8 ADR:0x00372800 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  108   ID:111 CYC:108 SRC:31 DST:61 ADR:0x1f1df880 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 234
+Inject:  111   ID:112 CYC:111 SRC:39 DST:61 ADR:0x1f167840 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 237
+Inject:  112   ID:113 CYC:112 SRC:23 DST:35 ADR:0x1f4238c0 TYP:ReadExResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 135
+Inject:  114   ID:119 CYC:114 SRC:17 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 139
+Inject:  114   ID:118 CYC:114 SRC:19 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 138
+Inject:  114   ID:117 CYC:114 SRC:20 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 137
+Inject:  114   ID:116 CYC:114 SRC:22 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 136
+Inject:  116   ID:121 CYC:116 SRC:6 DST:27 ADR:0x1fc1b780 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  117   ID:123 CYC:117 SRC:24 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 142
+Inject:  117   ID:125 CYC:117 SRC:42 DST:18 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  118   ID:124 CYC:117 SRC:42 DST:16 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  120   ID:126 CYC:120 SRC:31 DST:20 ADR:0x00854f80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 144
+Inject:  120   ID:114 CYC:112 SRC:51 DST:6 ADR:0x1f1337c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  121   ID:115 CYC:113 SRC:51 DST:6 ADR:0x1f133780 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  124   ID:128 CYC:124 SRC:4 DST:55 ADR:0x003378c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 147
+Inject:  124   ID:130 CYC:124 SRC:6 DST:51 ADR:0x1f133840 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 148 278
+Inject:  125   ID:129 CYC:124 SRC:6 DST:27 ADR:0x1fc1b880 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  125   ID:122 CYC:117 SRC:42 DST:14 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  127   ID:132 CYC:127 SRC:7 DST:39 ADR:0x1f167800 TYP:UpgradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 153 283
+Inject:  127   ID:131 CYC:127 SRC:39 DST:7 ADR:0x1f167800 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  127   ID:120 CYC:116 SRC:59 DST:30 ADR:0x1f43b8c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  128   ID:133 CYC:128 SRC:4 DST:55 ADR:0x00337bc0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 154
+Inject:  129   ID:127 CYC:121 SRC:51 DST:6 ADR:0x1f133880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  134   ID:134 CYC:134 SRC:8 DST:51 ADR:0x00d33440 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 155 286
+Inject:  136   ID:135 CYC:136 SRC:35 DST:29 ADR:0x1f4238c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  138   ID:139 CYC:138 SRC:42 DST:17 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  139   ID:138 CYC:138 SRC:42 DST:19 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  140   ID:140 CYC:140 SRC:6 DST:51 ADR:0x1f133800 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 159
+Inject:  140   ID:141 CYC:140 SRC:27 DST:23 ADR:0x1e61b780 TYP:Writeback SrcType:L2 Cache DstType:Memory Controller NDEP:0
+Inject:  140   ID:137 CYC:138 SRC:42 DST:20 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  141   ID:136 CYC:138 SRC:42 DST:22 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  142   ID:143 CYC:142 SRC:0 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 162
+Inject:  144   ID:144 CYC:144 SRC:20 DST:31 ADR:0x00854f80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  148   ID:146 CYC:148 SRC:13 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 167
+Inject:  148   ID:145 CYC:148 SRC:23 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 166
+Inject:  149   ID:151 CYC:149 SRC:14 DST:55 ADR:0x00337940 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 230
+Inject:  149   ID:150 CYC:149 SRC:16 DST:55 ADR:0x00337940 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 229
+Inject:  149   ID:149 CYC:149 SRC:18 DST:55 ADR:0x00337940 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 228
+Inject:  149   ID:142 CYC:141 SRC:23 DST:24 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  149   ID:152 CYC:149 SRC:24 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 169
+Inject:  151   ID:153 CYC:151 SRC:39 DST:61 ADR:0x1f167800 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 266
+Inject:  158   ID:156 CYC:158 SRC:61 DST:47 ADR:0x1f3ef8c0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 177
+Inject:  159   ID:148 CYC:148 SRC:51 DST:23 ADR:0x1f133840 TYP:ReadExReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 259
+Inject:  159   ID:147 CYC:148 SRC:55 DST:4 ADR:0x003378c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  161   ID:157 CYC:161 SRC:4 DST:55 ADR:0x00337c00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 178
+Inject:  163   ID:158 CYC:163 SRC:5 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 179
+Inject:  163   ID:154 CYC:152 SRC:55 DST:4 ADR:0x00337bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  164   ID:160 CYC:164 SRC:6 DST:51 ADR:0x1f133800 TYP:UpgradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 180 301
+Inject:  165   ID:161 CYC:165 SRC:25 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 181
+Inject:  166   ID:163 CYC:166 SRC:2 DST:27 ADR:0x00d1bb80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 164 165
+Inject:  166   ID:162 CYC:166 SRC:49 DST:0 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  166   ID:155 CYC:158 SRC:51 DST:23 ADR:0x00d33440 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 269
+Inject:  172   ID:168 CYC:172 SRC:2 DST:3 ADR:0x1fd43b80 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  172   ID:167 CYC:172 SRC:42 DST:13 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  173   ID:169 CYC:173 SRC:49 DST:24 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  174   ID:170 CYC:174 SRC:2 DST:27 ADR:0x00d1bbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 171 175
+Inject:  174   ID:174 CYC:174 SRC:12 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 188
+Inject:  174   ID:173 CYC:174 SRC:15 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 187
+Inject:  174   ID:172 CYC:174 SRC:26 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 186
+Inject:  175   ID:159 CYC:164 SRC:51 DST:6 ADR:0x1f133800 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  180   ID:176 CYC:180 SRC:24 DST:26 ADR:0x0085acc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 193
+Inject:  180   ID:166 CYC:172 SRC:42 DST:23 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  182   ID:177 CYC:182 SRC:47 DST:28 ADR:0x1f3ef8c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  186   ID:165 CYC:169 SRC:27 DST:2 ADR:0x00d1bb80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  187   ID:164 CYC:166 SRC:27 DST:4 ADR:0x00d1bb80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  189   ID:181 CYC:189 SRC:23 DST:25 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  191   ID:182 CYC:191 SRC:0 DST:49 ADR:0x00331080 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 203
+Inject:  194   ID:184 CYC:194 SRC:27 DST:26 ADR:0x0085acc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 205
+Inject:  194   ID:183 CYC:194 SRC:31 DST:19 ADR:0x1f4537c0 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 204 311
+Inject:  195   ID:175 CYC:177 SRC:27 DST:2 ADR:0x00d1bbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  196   ID:171 CYC:174 SRC:27 DST:4 ADR:0x00d1bbc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  196   ID:178 CYC:185 SRC:55 DST:4 ADR:0x00337c00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  197   ID:185 CYC:197 SRC:25 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 206
+Inject:  198   ID:188 CYC:198 SRC:23 DST:12 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  199   ID:187 CYC:198 SRC:23 DST:15 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  199   ID:180 CYC:188 SRC:51 DST:23 ADR:0x1f133800 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 289
+Inject:  200   ID:189 CYC:200 SRC:5 DST:49 ADR:0x003310c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 208
+Inject:  200   ID:186 CYC:198 SRC:23 DST:26 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  201   ID:179 CYC:187 SRC:49 DST:5 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  203   ID:190 CYC:203 SRC:4 DST:20 ADR:0x00854f80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 209
+Inject:  204   ID:191 CYC:204 SRC:13 DST:55 ADR:0x00337940 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 231
+Inject:  204   ID:192 CYC:204 SRC:23 DST:55 ADR:0x00337940 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 232
+Inject:  204   ID:193 CYC:204 SRC:26 DST:24 ADR:0x0085acc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  206   ID:196 CYC:206 SRC:12 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 215
+Inject:  206   ID:195 CYC:206 SRC:15 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 214
+Inject:  206   ID:194 CYC:206 SRC:26 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 211
+Inject:  210   ID:197 CYC:210 SRC:2 DST:28 ADR:0x00d1c300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 198 200
+Inject:  212   ID:199 CYC:212 SRC:47 DST:21 ADR:0x00d15b80 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 218
+Inject:  214   ID:201 CYC:214 SRC:30 DST:20 ADR:0x00854f80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 220
+Inject:  215   ID:202 CYC:215 SRC:1 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 221
+Inject:  215   ID:203 CYC:215 SRC:49 DST:0 ADR:0x00331080 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  218   ID:204 CYC:218 SRC:19 DST:23 ADR:0x1f4537c0 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 304
+Inject:  218   ID:205 CYC:218 SRC:26 DST:27 ADR:0x0085acc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  221   ID:206 CYC:221 SRC:49 DST:25 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  222   ID:207 CYC:222 SRC:4 DST:55 ADR:0x00337900 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 223
+Inject:  227   ID:209 CYC:227 SRC:20 DST:4 ADR:0x00854f80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  228   ID:210 CYC:228 SRC:25 DST:26 ADR:0x0085acc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 226
+Inject:  230   ID:213 CYC:230 SRC:4 DST:32 ADR:0x00fe0f80 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  230   ID:211 CYC:230 SRC:49 DST:26 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  230   ID:212 CYC:230 SRC:61 DST:55 ADR:0x00337940 TYP:ReadResp SrcType:Memory Controller DstType:L2 Cache NDEP:6 227 228 229 230 231 232
+Inject:  233   ID:200 CYC:213 SRC:28 DST:2 ADR:0x00d1c300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  234   ID:198 CYC:210 SRC:28 DST:4 ADR:0x00d1c300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  234   ID:216 CYC:234 SRC:29 DST:20 ADR:0x00854f80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 233
+Inject:  236   ID:217 CYC:236 SRC:10 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 235
+Inject:  236   ID:218 CYC:236 SRC:21 DST:3 ADR:0x00d15b80 TYP:UpgradeResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  237   ID:219 CYC:237 SRC:12 DST:26 ADR:0x0085acc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 236
+Inject:  238   ID:220 CYC:238 SRC:20 DST:30 ADR:0x00854f80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  238   ID:215 CYC:230 SRC:49 DST:12 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  239   ID:221 CYC:239 SRC:49 DST:1 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  240   ID:208 CYC:224 SRC:49 DST:5 ADR:0x003310c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  243   ID:222 CYC:243 SRC:5 DST:57 ADR:0x00d39440 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 239
+Inject:  247   ID:214 CYC:230 SRC:49 DST:15 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  249   ID:224 CYC:249 SRC:61 DST:31 ADR:0x1f1df7c0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 241
+Inject:  251   ID:225 CYC:251 SRC:30 DST:54 ADR:0x00db6fc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 243
+Inject:  252   ID:226 CYC:252 SRC:26 DST:25 ADR:0x0085acc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  254   ID:232 CYC:254 SRC:55 DST:23 ADR:0x00337940 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  255   ID:231 CYC:254 SRC:55 DST:13 ADR:0x00337940 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  256   ID:230 CYC:254 SRC:55 DST:14 ADR:0x00337940 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  257   ID:229 CYC:254 SRC:55 DST:16 ADR:0x00337940 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  258   ID:233 CYC:258 SRC:20 DST:29 ADR:0x00854f80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  258   ID:228 CYC:254 SRC:55 DST:18 ADR:0x00337940 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  258   ID:234 CYC:258 SRC:61 DST:31 ADR:0x1f1df880 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 251
+Inject:  259   ID:227 CYC:254 SRC:55 DST:21 ADR:0x00337940 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  260   ID:235 CYC:260 SRC:42 DST:10 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  260   ID:223 CYC:246 SRC:55 DST:4 ADR:0x00337900 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  261   ID:236 CYC:261 SRC:26 DST:12 ADR:0x0085acc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  261   ID:237 CYC:261 SRC:61 DST:39 ADR:0x1f167840 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 253
+Inject:  263   ID:238 CYC:263 SRC:24 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 256
+Inject:  273   ID:240 CYC:273 SRC:4 DST:7 ADR:0x1f1077c0 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 257 350
+Inject:  273   ID:241 CYC:273 SRC:31 DST:11 ADR:0x1f1df7c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  274   ID:242 CYC:274 SRC:4 DST:7 ADR:0x1f107780 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 258 351
+Inject:  275   ID:246 CYC:275 SRC:14 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 262
+Inject:  275   ID:245 CYC:275 SRC:16 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 261
+Inject:  275   ID:244 CYC:275 SRC:18 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 260
+Inject:  275   ID:243 CYC:275 SRC:54 DST:30 ADR:0x00db6fc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  277   ID:247 CYC:277 SRC:4 DST:49 ADR:0x00331080 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 264
+Inject:  277   ID:248 CYC:277 SRC:27 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 265
+Inject:  280   ID:249 CYC:280 SRC:28 DST:20 ADR:0x00854f80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 267
+Inject:  282   ID:250 CYC:282 SRC:4 DST:7 ADR:0x1f107880 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 268 354
+Inject:  282   ID:251 CYC:282 SRC:31 DST:11 ADR:0x1f1df880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  284   ID:239 CYC:267 SRC:57 DST:9 ADR:0x00d39440 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  285   ID:252 CYC:285 SRC:3 DST:54 ADR:0x00336700 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 270
+Inject:  285   ID:253 CYC:285 SRC:39 DST:7 ADR:0x1f167840 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  286   ID:255 CYC:286 SRC:15 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 272
+Inject:  286   ID:254 CYC:286 SRC:26 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 271
+Inject:  287   ID:256 CYC:287 SRC:42 DST:24 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  297   ID:257 CYC:297 SRC:7 DST:61 ADR:0x1f1077c0 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 326
+Inject:  298   ID:258 CYC:298 SRC:7 DST:61 ADR:0x1f107780 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 327
+Inject:  298   ID:259 CYC:298 SRC:23 DST:51 ADR:0x1f133840 TYP:ReadExResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 278
+Inject:  299   ID:261 CYC:299 SRC:49 DST:16 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  300   ID:263 CYC:300 SRC:30 DST:59 ADR:0x1f43b880 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 280 367
+Inject:  300   ID:260 CYC:299 SRC:49 DST:18 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  301   ID:265 CYC:301 SRC:42 DST:27 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  301   ID:266 CYC:301 SRC:61 DST:39 ADR:0x1f167800 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 283
+Inject:  304   ID:267 CYC:304 SRC:20 DST:28 ADR:0x00854f80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  306   ID:268 CYC:306 SRC:7 DST:61 ADR:0x1f107880 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 337
+Inject:  308   ID:269 CYC:308 SRC:23 DST:51 ADR:0x00d33440 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 286
+Inject:  310   ID:271 CYC:310 SRC:42 DST:26 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  311   ID:273 CYC:311 SRC:25 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 288
+Inject:  312   ID:264 CYC:301 SRC:49 DST:4 ADR:0x00331080 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  313   ID:262 CYC:299 SRC:49 DST:14 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  317   ID:274 CYC:317 SRC:28 DST:42 ADR:0x00daafc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 291
+Inject:  317   ID:275 CYC:317 SRC:29 DST:35 ADR:0x1f423880 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 292 379
+Inject:  319   ID:276 CYC:319 SRC:24 DST:55 ADR:0x00337940 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 293
+Inject:  320   ID:277 CYC:320 SRC:12 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 294
+Inject:  320   ID:270 CYC:309 SRC:54 DST:3 ADR:0x00336700 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  321   ID:272 CYC:310 SRC:42 DST:15 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  324   ID:279 CYC:324 SRC:3 DST:54 ADR:0x00336740 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 296
+Inject:  324   ID:280 CYC:324 SRC:59 DST:23 ADR:0x1f43b880 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 352
+Inject:  325   ID:281 CYC:325 SRC:3 DST:22 ADR:0x00d16300 TYP:UpgradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:3 282 297 383
+Inject:  325   ID:283 CYC:325 SRC:39 DST:7 ADR:0x1f167800 TYP:UpgradeResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  330   ID:278 CYC:322 SRC:51 DST:6 ADR:0x1f133840 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  332   ID:284 CYC:332 SRC:3 DST:21 ADR:0x00d15bc0 TYP:UpgradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:3 285 298 388
+Inject:  333   ID:287 CYC:333 SRC:27 DST:55 ADR:0x00337940 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 299
+Inject:  335   ID:288 CYC:335 SRC:42 DST:25 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  338   ID:289 CYC:338 SRC:23 DST:51 ADR:0x1f133800 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 301
+Inject:  340   ID:286 CYC:332 SRC:51 DST:8 ADR:0x00d33440 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  341   ID:290 CYC:341 SRC:2 DST:33 ADR:0x00d21040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 295
+Inject:  341   ID:292 CYC:341 SRC:35 DST:23 ADR:0x1f423880 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 361
+Inject:  341   ID:291 CYC:341 SRC:42 DST:28 ADR:0x00daafc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  344   ID:294 CYC:344 SRC:42 DST:12 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  348   ID:282 CYC:325 SRC:22 DST:2 ADR:0x00d16300 TYP:InvalidateReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  349   ID:297 CYC:349 SRC:22 DST:58 ADR:0x00d16300 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 369
+Inject:  352   ID:285 CYC:332 SRC:21 DST:2 ADR:0x00d15bc0 TYP:InvalidateReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  356   ID:298 CYC:356 SRC:21 DST:47 ADR:0x00d15bc0 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 374
+Inject:  357   ID:299 CYC:357 SRC:55 DST:27 ADR:0x00337940 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  358   ID:300 CYC:358 SRC:28 DST:47 ADR:0x1f3ef7c0 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 307 401
+Inject:  358   ID:293 CYC:343 SRC:55 DST:24 ADR:0x00337940 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  359   ID:296 CYC:348 SRC:54 DST:3 ADR:0x00336740 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  364   ID:295 CYC:344 SRC:33 DST:2 ADR:0x00d21040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  366   ID:302 CYC:366 SRC:28 DST:47 ADR:0x1f3ef880 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 309 408
+Inject:  367   ID:303 CYC:367 SRC:25 DST:55 ADR:0x00337940 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 310
+Inject:  368   ID:304 CYC:368 SRC:23 DST:19 ADR:0x1f4537c0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 311
+Inject:  370   ID:301 CYC:362 SRC:51 DST:6 ADR:0x1f133800 TYP:UpgradeResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  376   ID:305 CYC:376 SRC:12 DST:55 ADR:0x00337940 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 312
+Inject:  379   ID:306 CYC:379 SRC:11 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 314
+Inject:  382   ID:307 CYC:382 SRC:47 DST:61 ADR:0x1f3ef7c0 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 389
+Inject:  388   ID:308 CYC:388 SRC:7 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 316
+Inject:  390   ID:309 CYC:390 SRC:47 DST:61 ADR:0x1f3ef880 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 392
+Inject:  392   ID:311 CYC:392 SRC:19 DST:31 ADR:0x1f4537c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  402   ID:313 CYC:402 SRC:10 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 318
+Inject:  402   ID:310 CYC:391 SRC:55 DST:25 ADR:0x00337940 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  403   ID:314 CYC:403 SRC:23 DST:11 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  408   ID:312 CYC:400 SRC:55 DST:12 ADR:0x00337940 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  411   ID:315 CYC:411 SRC:11 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 324
+Inject:  412   ID:316 CYC:412 SRC:23 DST:7 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  419   ID:317 CYC:419 SRC:9 DST:54 ADR:0x00336680 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 325
+Inject:  426   ID:318 CYC:426 SRC:49 DST:10 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  427   ID:319 CYC:427 SRC:7 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 332
+Inject:  427   ID:320 CYC:427 SRC:9 DST:25 ADR:0x00859780 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 333
+Inject:  428   ID:321 CYC:428 SRC:3 DST:45 ADR:0x0032da80 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 334
+Inject:  430   ID:322 CYC:430 SRC:0 DST:9 ADR:0x00d09040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 323
+Inject:  435   ID:324 CYC:435 SRC:49 DST:11 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  444   ID:323 CYC:433 SRC:9 DST:0 ADR:0x00d09040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  447   ID:326 CYC:447 SRC:61 DST:7 ADR:0x1f1077c0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 350
+Inject:  448   ID:328 CYC:448 SRC:5 DST:39 ADR:0x00d27040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 331
+Inject:  448   ID:327 CYC:448 SRC:61 DST:7 ADR:0x1f107780 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 351
+Inject:  451   ID:329 CYC:451 SRC:2 DST:33 ADR:0x00d21b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 330 335
+Inject:  451   ID:333 CYC:451 SRC:25 DST:9 ADR:0x00859780 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  452   ID:334 CYC:452 SRC:45 DST:3 ADR:0x0032da80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  454   ID:336 CYC:454 SRC:9 DST:35 ADR:0x1e263780 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  456   ID:337 CYC:456 SRC:61 DST:7 ADR:0x1f107880 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 354
+Inject:  457   ID:338 CYC:457 SRC:2 DST:59 ADR:0x1e57bb80 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  457   ID:325 CYC:443 SRC:54 DST:9 ADR:0x00336680 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  458   ID:339 CYC:458 SRC:9 DST:54 ADR:0x003366c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 355
+Inject:  459   ID:340 CYC:459 SRC:2 DST:33 ADR:0x00d21bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 341 345
+Inject:  459   ID:342 CYC:459 SRC:27 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 356
+Inject:  462   ID:344 CYC:462 SRC:6 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 359
+Inject:  462   ID:343 CYC:462 SRC:31 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 358
+Inject:  465   ID:347 CYC:465 SRC:2 DST:59 ADR:0x1e57bbc0 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  465   ID:346 CYC:465 SRC:21 DST:7 ADR:0x00d87040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 349
+Inject:  465   ID:332 CYC:451 SRC:42 DST:7 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  468   ID:348 CYC:468 SRC:3 DST:54 ADR:0x00336780 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 362
+Inject:  474   ID:352 CYC:474 SRC:23 DST:59 ADR:0x1f43b880 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 367
+Inject:  474   ID:335 CYC:454 SRC:33 DST:2 ADR:0x00d21b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  474   ID:331 CYC:451 SRC:39 DST:5 ADR:0x00d27040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  475   ID:330 CYC:451 SRC:33 DST:5 ADR:0x00d21b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  479   ID:353 CYC:479 SRC:8 DST:11 ADR:0x0034ba00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 372
+Inject:  482   ID:350 CYC:471 SRC:7 DST:4 ADR:0x1f1077c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  482   ID:345 CYC:462 SRC:33 DST:2 ADR:0x00d21bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  483   ID:357 CYC:483 SRC:4 DST:7 ADR:0x1f107840 TYP:ReadExReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 375 468
+Inject:  483   ID:351 CYC:472 SRC:7 DST:4 ADR:0x1f107780 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  483   ID:341 CYC:459 SRC:33 DST:5 ADR:0x00d21bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  483   ID:356 CYC:483 SRC:49 DST:27 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  485   ID:349 CYC:468 SRC:7 DST:21 ADR:0x00d87040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  486   ID:358 CYC:486 SRC:23 DST:31 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  491   ID:354 CYC:480 SRC:7 DST:4 ADR:0x1f107880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  491   ID:360 CYC:491 SRC:11 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 378
+Inject:  491   ID:361 CYC:491 SRC:23 DST:35 ADR:0x1f423880 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 379
+Inject:  494   ID:363 CYC:494 SRC:31 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 381
+Inject:  495   ID:364 CYC:495 SRC:2 DST:34 ADR:0x00d22300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 365 366
+Inject:  496   ID:355 CYC:482 SRC:54 DST:9 ADR:0x003366c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  497   ID:359 CYC:486 SRC:42 DST:6 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  499   ID:368 CYC:499 SRC:4 DST:7 ADR:0x1f107800 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 382
+Inject:  499   ID:369 CYC:499 SRC:58 DST:22 ADR:0x00d16300 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 383
+Inject:  501   ID:370 CYC:501 SRC:2 DST:28 ADR:0x1e3dc300 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  503   ID:371 CYC:503 SRC:1 DST:15 ADR:0x00d0f040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 386
+Inject:  503   ID:372 CYC:503 SRC:11 DST:8 ADR:0x0034ba00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  503   ID:362 CYC:492 SRC:54 DST:3 ADR:0x00336780 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  506   ID:373 CYC:506 SRC:9 DST:57 ADR:0x00d39b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 387
+Inject:  506   ID:374 CYC:506 SRC:47 DST:21 ADR:0x00d15bc0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 388
+Inject:  507   ID:375 CYC:507 SRC:7 DST:61 ADR:0x1f107840 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 466
+Inject:  509   ID:367 CYC:498 SRC:59 DST:30 ADR:0x1f43b880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  510   ID:376 CYC:510 SRC:3 DST:54 ADR:0x003367c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 390
+Inject:  512   ID:377 CYC:512 SRC:8 DST:54 ADR:0x00336680 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 391
+Inject:  515   ID:366 CYC:498 SRC:34 DST:2 ADR:0x00d22300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  515   ID:379 CYC:515 SRC:35 DST:29 ADR:0x1f423880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  515   ID:378 CYC:515 SRC:42 DST:11 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  516   ID:365 CYC:495 SRC:34 DST:5 ADR:0x00d22300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  517   ID:380 CYC:517 SRC:8 DST:25 ADR:0x00859780 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 393
+Inject:  523   ID:384 CYC:523 SRC:4 DST:7 ADR:0x1f107800 TYP:UpgradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 397 517
+Inject:  523   ID:382 CYC:523 SRC:7 DST:4 ADR:0x1f107800 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  526   ID:385 CYC:526 SRC:4 DST:33 ADR:0x00fe1800 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  527   ID:386 CYC:527 SRC:15 DST:1 ADR:0x00d0f040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  529   ID:381 CYC:518 SRC:49 DST:31 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  530   ID:388 CYC:530 SRC:21 DST:3 ADR:0x00d15bc0 TYP:UpgradeResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  530   ID:387 CYC:530 SRC:57 DST:9 ADR:0x00d39b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  532   ID:389 CYC:532 SRC:61 DST:47 ADR:0x1f3ef7c0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 401
+Inject:  534   ID:383 CYC:523 SRC:22 DST:3 ADR:0x00d16300 TYP:UpgradeResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  540   ID:392 CYC:540 SRC:61 DST:47 ADR:0x1f3ef880 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 408
+Inject:  541   ID:393 CYC:541 SRC:25 DST:8 ADR:0x00859780 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  544   ID:394 CYC:544 SRC:9 DST:57 ADR:0x00d39b80 TYP:UpgradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 415 545
+Inject:  545   ID:395 CYC:545 SRC:19 DST:59 ADR:0x00d7b040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 398
+Inject:  545   ID:390 CYC:534 SRC:54 DST:3 ADR:0x003367c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  547   ID:396 CYC:547 SRC:3 DST:54 ADR:0x00336800 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 416
+Inject:  547   ID:397 CYC:547 SRC:7 DST:61 ADR:0x1f107800 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 482
+Inject:  550   ID:399 CYC:550 SRC:33 DST:5 ADR:0x1e3e1800 TYP:Writeback SrcType:L2 Cache DstType:Memory Controller NDEP:0
+Inject:  551   ID:400 CYC:551 SRC:8 DST:54 ADR:0x003366c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 418
+Inject:  553   ID:391 CYC:536 SRC:54 DST:8 ADR:0x00336680 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  556   ID:401 CYC:556 SRC:47 DST:28 ADR:0x1f3ef7c0 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  563   ID:402 CYC:563 SRC:14 DST:29 ADR:0x00d5d040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 409
+Inject:  563   ID:403 CYC:563 SRC:16 DST:41 ADR:0x00d69040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 410
+Inject:  563   ID:407 CYC:563 SRC:17 DST:47 ADR:0x00d6f040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 414
+Inject:  563   ID:404 CYC:563 SRC:18 DST:53 ADR:0x00d75040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 411
+Inject:  563   ID:406 CYC:563 SRC:20 DST:1 ADR:0x00d81040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 413
+Inject:  563   ID:405 CYC:563 SRC:22 DST:13 ADR:0x00d8d040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 412
+Inject:  564   ID:408 CYC:564 SRC:47 DST:28 ADR:0x1f3ef880 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  568   ID:415 CYC:568 SRC:57 DST:5 ADR:0x00d39b80 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 509
+Inject:  568   ID:398 CYC:548 SRC:59 DST:19 ADR:0x00d7b040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  574   ID:417 CYC:574 SRC:31 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 437
+Inject:  577   ID:412 CYC:566 SRC:13 DST:22 ADR:0x00d8d040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  580   ID:419 CYC:580 SRC:5 DST:39 ADR:0x00d27b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 420 423
+Inject:  580   ID:409 CYC:566 SRC:29 DST:14 ADR:0x00d5d040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  582   ID:421 CYC:582 SRC:0 DST:9 ADR:0x00d09b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 422 425
+Inject:  582   ID:416 CYC:571 SRC:54 DST:3 ADR:0x00336800 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  583   ID:410 CYC:566 SRC:41 DST:16 ADR:0x00d69040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  584   ID:424 CYC:584 SRC:7 DST:49 ADR:0x003310c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 442
+Inject:  586   ID:426 CYC:586 SRC:0 DST:49 ADR:0x003310c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 445
+Inject:  586   ID:413 CYC:566 SRC:1 DST:20 ADR:0x00d81040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  591   ID:427 CYC:591 SRC:30 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 447
+Inject:  592   ID:428 CYC:592 SRC:5 DST:39 ADR:0x00d27bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 429 434
+Inject:  592   ID:411 CYC:566 SRC:53 DST:18 ADR:0x00d75040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  592   ID:418 CYC:575 SRC:54 DST:8 ADR:0x003366c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  594   ID:430 CYC:594 SRC:0 DST:9 ADR:0x00d09bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 431 435
+Inject:  595   ID:433 CYC:595 SRC:13 DST:23 ADR:0x00d57040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 438
+Inject:  595   ID:432 CYC:595 SRC:23 DST:19 ADR:0x00d93040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 436
+Inject:  596   ID:425 CYC:585 SRC:9 DST:0 ADR:0x00d09b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  597   ID:422 CYC:582 SRC:9 DST:1 ADR:0x00d09b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  598   ID:439 CYC:598 SRC:5 DST:11 ADR:0x1f10bbc0 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  598   ID:437 CYC:598 SRC:42 DST:31 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  598   ID:414 CYC:566 SRC:47 DST:17 ADR:0x00d6f040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  599   ID:440 CYC:599 SRC:2 DST:39 ADR:0x00d27040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 441
+Inject:  606   ID:423 CYC:583 SRC:39 DST:5 ADR:0x00d27b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  607   ID:420 CYC:580 SRC:39 DST:6 ADR:0x00d27b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  608   ID:435 CYC:597 SRC:9 DST:0 ADR:0x00d09bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  609   ID:443 CYC:609 SRC:8 DST:51 ADR:0x00d33b80 TYP:UpgradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:3 444 459 602
+Inject:  609   ID:431 CYC:594 SRC:9 DST:1 ADR:0x00d09bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  610   ID:445 CYC:610 SRC:49 DST:0 ADR:0x003310c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  612   ID:438 CYC:598 SRC:23 DST:13 ADR:0x00d57040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  614   ID:446 CYC:614 SRC:6 DST:49 ADR:0x003310c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 460
+Inject:  615   ID:436 CYC:598 SRC:19 DST:23 ADR:0x00d93040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  615   ID:447 CYC:615 SRC:23 DST:30 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  617   ID:448 CYC:617 SRC:21 DST:7 ADR:0x00d87b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 449 450
+Inject:  618   ID:434 CYC:595 SRC:39 DST:5 ADR:0x00d27bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  619   ID:429 CYC:592 SRC:39 DST:6 ADR:0x00d27bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  623   ID:451 CYC:623 SRC:30 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 461
+Inject:  627   ID:452 CYC:627 SRC:29 DST:26 ADR:0x0085acc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 464
+Inject:  628   ID:453 CYC:628 SRC:5 DST:40 ADR:0x00d28300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 454 457
+Inject:  628   ID:442 CYC:608 SRC:49 DST:7 ADR:0x003310c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  629   ID:455 CYC:629 SRC:21 DST:7 ADR:0x00d87bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 456 458
+Inject:  634   ID:441 CYC:602 SRC:39 DST:2 ADR:0x00d27040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  637   ID:450 CYC:620 SRC:7 DST:21 ADR:0x00d87b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  638   ID:449 CYC:617 SRC:7 DST:22 ADR:0x00d87b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  641   ID:459 CYC:633 SRC:51 DST:23 ADR:0x00d33b80 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 579
+Inject:  642   ID:444 CYC:609 SRC:51 DST:9 ADR:0x00d33b80 TYP:InvalidateReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  649   ID:458 CYC:632 SRC:7 DST:21 ADR:0x00d87bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  650   ID:462 CYC:650 SRC:0 DST:10 ADR:0x00d0a300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 463 465
+Inject:  650   ID:456 CYC:629 SRC:7 DST:22 ADR:0x00d87bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  651   ID:464 CYC:651 SRC:26 DST:29 ADR:0x0085acc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  655   ID:461 CYC:647 SRC:49 DST:30 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  656   ID:460 CYC:638 SRC:49 DST:6 ADR:0x003310c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  657   ID:466 CYC:657 SRC:61 DST:7 ADR:0x1f107840 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 468
+Inject:  661   ID:467 CYC:661 SRC:28 DST:23 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 472
+Inject:  666   ID:457 CYC:631 SRC:40 DST:5 ADR:0x00d28300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  667   ID:465 CYC:653 SRC:10 DST:0 ADR:0x00d0a300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  667   ID:454 CYC:628 SRC:40 DST:6 ADR:0x00d28300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  668   ID:463 CYC:650 SRC:10 DST:1 ADR:0x00d0a300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  684   ID:469 CYC:684 SRC:4 DST:33 ADR:0x00fe1840 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  685   ID:470 CYC:685 SRC:21 DST:8 ADR:0x00d88300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 471 475
+Inject:  685   ID:472 CYC:685 SRC:23 DST:28 ADR:0x008577c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  686   ID:473 CYC:686 SRC:1 DST:15 ADR:0x00d0fb80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 474 476
+Inject:  690   ID:477 CYC:690 SRC:10 DST:5 ADR:0x00d45040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 479
+Inject:  692   ID:468 CYC:681 SRC:7 DST:4 ADR:0x1f107840 TYP:ReadExResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  693   ID:478 CYC:693 SRC:28 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 507
+Inject:  697   ID:480 CYC:697 SRC:19 DST:59 ADR:0x00d7bb80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 481 485
+Inject:  697   ID:482 CYC:697 SRC:61 DST:7 ADR:0x1f107800 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 517
+Inject:  698   ID:483 CYC:698 SRC:1 DST:15 ADR:0x00d0fbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 484 486
+Inject:  703   ID:487 CYC:703 SRC:30 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 531
+Inject:  709   ID:488 CYC:709 SRC:19 DST:59 ADR:0x00d7bbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 489 492
+Inject:  710   ID:491 CYC:710 SRC:2 DST:39 ADR:0x00d27b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 493
+Inject:  710   ID:479 CYC:693 SRC:5 DST:10 ADR:0x00d45040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  710   ID:490 CYC:710 SRC:29 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 540
+Inject:  711   ID:475 CYC:688 SRC:8 DST:21 ADR:0x00d88300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  712   ID:471 CYC:685 SRC:8 DST:22 ADR:0x00d88300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  715   ID:494 CYC:715 SRC:14 DST:29 ADR:0x00d5db80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 495 510
+Inject:  715   ID:476 CYC:689 SRC:15 DST:1 ADR:0x00d0fb80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  715   ID:496 CYC:715 SRC:16 DST:41 ADR:0x00d69b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 497 511
+Inject:  715   ID:504 CYC:715 SRC:17 DST:47 ADR:0x00d6fb80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 505 515
+Inject:  715   ID:498 CYC:715 SRC:18 DST:53 ADR:0x00d75b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 499 512
+Inject:  715   ID:502 CYC:715 SRC:20 DST:1 ADR:0x00d81b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 503 514
+Inject:  715   ID:500 CYC:715 SRC:22 DST:13 ADR:0x00d8db80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 501 513
+Inject:  716   ID:506 CYC:716 SRC:2 DST:15 ADR:0x00d0fb80 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  716   ID:474 CYC:686 SRC:15 DST:2 ADR:0x00d0fb80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  717   ID:507 CYC:717 SRC:49 DST:28 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  718   ID:508 CYC:718 SRC:2 DST:39 ADR:0x00d27bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 516
+Inject:  718   ID:509 CYC:718 SRC:5 DST:57 ADR:0x00d39b80 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 545
+Inject:  720   ID:485 CYC:700 SRC:59 DST:19 ADR:0x00d7bb80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  721   ID:481 CYC:697 SRC:59 DST:20 ADR:0x00d7bb80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  724   ID:518 CYC:724 SRC:2 DST:15 ADR:0x00d0fbc0 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  727   ID:519 CYC:727 SRC:14 DST:29 ADR:0x00d5dbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 520 533
+Inject:  727   ID:486 CYC:701 SRC:15 DST:1 ADR:0x00d0fbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  727   ID:521 CYC:727 SRC:16 DST:41 ADR:0x00d69bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 522 534
+Inject:  727   ID:529 CYC:727 SRC:17 DST:47 ADR:0x00d6fbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 530 538
+Inject:  727   ID:523 CYC:727 SRC:18 DST:53 ADR:0x00d75bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 524 535
+Inject:  727   ID:527 CYC:727 SRC:20 DST:1 ADR:0x00d81bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 528 537
+Inject:  727   ID:525 CYC:727 SRC:22 DST:13 ADR:0x00d8dbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 526 536
+Inject:  727   ID:531 CYC:727 SRC:42 DST:30 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  728   ID:484 CYC:698 SRC:15 DST:2 ADR:0x00d0fbc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  728   ID:532 CYC:728 SRC:24 DST:25 ADR:0x00d99040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 539
+Inject:  729   ID:513 CYC:718 SRC:13 DST:22 ADR:0x00d8db80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  730   ID:501 CYC:715 SRC:13 DST:23 ADR:0x00d8db80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  732   ID:517 CYC:721 SRC:7 DST:4 ADR:0x1f107800 TYP:UpgradeResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  732   ID:510 CYC:718 SRC:29 DST:14 ADR:0x00d5db80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  732   ID:492 CYC:712 SRC:59 DST:19 ADR:0x00d7bbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  733   ID:495 CYC:715 SRC:29 DST:15 ADR:0x00d5db80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  733   ID:489 CYC:709 SRC:59 DST:20 ADR:0x00d7bbc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  734   ID:540 CYC:734 SRC:42 DST:29 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  735   ID:542 CYC:735 SRC:15 DST:35 ADR:0x00d63040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 544
+Inject:  735   ID:541 CYC:735 SRC:26 DST:37 ADR:0x00da5040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 543
+Inject:  735   ID:511 CYC:718 SRC:41 DST:16 ADR:0x00d69b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  736   ID:497 CYC:715 SRC:41 DST:17 ADR:0x00d69b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  738   ID:514 CYC:718 SRC:1 DST:20 ADR:0x00d81b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  739   ID:503 CYC:715 SRC:1 DST:21 ADR:0x00d81b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  739   ID:539 CYC:731 SRC:25 DST:24 ADR:0x00d99040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  741   ID:536 CYC:730 SRC:13 DST:22 ADR:0x00d8dbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  742   ID:526 CYC:727 SRC:13 DST:23 ADR:0x00d8dbc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  744   ID:533 CYC:730 SRC:29 DST:14 ADR:0x00d5dbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  744   ID:512 CYC:718 SRC:53 DST:18 ADR:0x00d75b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  745   ID:520 CYC:727 SRC:29 DST:15 ADR:0x00d5dbc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  745   ID:493 CYC:713 SRC:39 DST:2 ADR:0x00d27b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  745   ID:499 CYC:715 SRC:53 DST:19 ADR:0x00d75b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  747   ID:549 CYC:747 SRC:13 DST:23 ADR:0x00d57b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 550 553
+Inject:  747   ID:547 CYC:747 SRC:23 DST:19 ADR:0x00d93b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 548 552
+Inject:  747   ID:546 CYC:747 SRC:27 DST:43 ADR:0x00dab040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 551
+Inject:  747   ID:534 CYC:730 SRC:41 DST:16 ADR:0x00d69bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  748   ID:522 CYC:727 SRC:41 DST:17 ADR:0x00d69bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  750   ID:537 CYC:730 SRC:1 DST:20 ADR:0x00d81bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  750   ID:515 CYC:718 SRC:47 DST:17 ADR:0x00d6fb80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  751   ID:528 CYC:727 SRC:1 DST:21 ADR:0x00d81bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  751   ID:505 CYC:715 SRC:47 DST:18 ADR:0x00d6fb80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  753   ID:516 CYC:721 SRC:39 DST:2 ADR:0x00d27bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  754   ID:555 CYC:754 SRC:1 DST:16 ADR:0x00d10300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 556 559
+Inject:  754   ID:554 CYC:754 SRC:2 DST:40 ADR:0x00d28300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 558
+Inject:  755   ID:543 CYC:738 SRC:37 DST:26 ADR:0x00da5040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  756   ID:535 CYC:730 SRC:53 DST:18 ADR:0x00d75bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  757   ID:557 CYC:757 SRC:3 DST:28 ADR:0x0035c680 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 576
+Inject:  757   ID:524 CYC:727 SRC:53 DST:19 ADR:0x00d75bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  759   ID:562 CYC:759 SRC:13 DST:23 ADR:0x00d57bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 563 566
+Inject:  759   ID:560 CYC:759 SRC:23 DST:19 ADR:0x00d93bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 561 565
+Inject:  759   ID:545 CYC:742 SRC:57 DST:9 ADR:0x00d39b80 TYP:UpgradeResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  760   ID:564 CYC:760 SRC:2 DST:16 ADR:0x00d10300 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  761   ID:551 CYC:750 SRC:43 DST:27 ADR:0x00dab040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  762   ID:538 CYC:730 SRC:47 DST:17 ADR:0x00d6fbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  763   ID:530 CYC:727 SRC:47 DST:18 ADR:0x00d6fbc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  764   ID:553 CYC:750 SRC:23 DST:13 ADR:0x00d57b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  764   ID:544 CYC:738 SRC:35 DST:15 ADR:0x00d63040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  765   ID:567 CYC:765 SRC:19 DST:60 ADR:0x00d7c300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 568 571
+Inject:  765   ID:550 CYC:747 SRC:23 DST:14 ADR:0x00d57b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  766   ID:569 CYC:766 SRC:29 DST:55 ADR:0x00337940 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 598
+Inject:  767   ID:570 CYC:767 SRC:5 DST:45 ADR:0x00d2d040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 572
+Inject:  767   ID:552 CYC:750 SRC:19 DST:23 ADR:0x00d93b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  768   ID:548 CYC:747 SRC:19 DST:24 ADR:0x00d93b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  771   ID:559 CYC:757 SRC:16 DST:1 ADR:0x00d10300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  772   ID:556 CYC:754 SRC:16 DST:2 ADR:0x00d10300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  773   ID:573 CYC:773 SRC:28 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 601
+Inject:  776   ID:566 CYC:762 SRC:23 DST:13 ADR:0x00d57bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  776   ID:574 CYC:776 SRC:25 DST:31 ADR:0x00d9f040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 575
+Inject:  777   ID:563 CYC:759 SRC:23 DST:14 ADR:0x00d57bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  779   ID:565 CYC:762 SRC:19 DST:23 ADR:0x00d93bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  780   ID:561 CYC:759 SRC:19 DST:24 ADR:0x00d93bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  781   ID:576 CYC:781 SRC:28 DST:3 ADR:0x0035c680 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  783   ID:577 CYC:783 SRC:14 DST:30 ADR:0x00d5e300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 578 591
+Inject:  783   ID:580 CYC:783 SRC:16 DST:42 ADR:0x00d6a300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 581 592
+Inject:  783   ID:588 CYC:783 SRC:17 DST:48 ADR:0x00d70300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 589 596
+Inject:  783   ID:582 CYC:783 SRC:18 DST:54 ADR:0x00d76300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 583 593
+Inject:  783   ID:586 CYC:783 SRC:20 DST:2 ADR:0x00d82300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 587 595
+Inject:  783   ID:584 CYC:783 SRC:22 DST:14 ADR:0x00d8e300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 585 594
+Inject:  783   ID:579 CYC:783 SRC:23 DST:51 ADR:0x00d33b80 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 602
+Inject:  783   ID:558 CYC:757 SRC:40 DST:2 ADR:0x00d28300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  785   ID:590 CYC:785 SRC:12 DST:17 ADR:0x00d51040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 597
+Inject:  790   ID:572 CYC:770 SRC:45 DST:5 ADR:0x00d2d040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  790   ID:598 CYC:790 SRC:55 DST:29 ADR:0x00337940 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  791   ID:599 CYC:791 SRC:9 DST:54 ADR:0x00336700 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 607
+Inject:  791   ID:571 CYC:768 SRC:60 DST:19 ADR:0x00d7c300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  792   ID:600 CYC:792 SRC:3 DST:28 ADR:0x0035c6c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 608
+Inject:  792   ID:568 CYC:765 SRC:60 DST:20 ADR:0x00d7c300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  794   ID:594 CYC:786 SRC:14 DST:22 ADR:0x00d8e300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  795   ID:585 CYC:783 SRC:14 DST:23 ADR:0x00d8e300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  797   ID:591 CYC:786 SRC:30 DST:14 ADR:0x00d5e300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  797   ID:601 CYC:797 SRC:42 DST:28 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  798   ID:578 CYC:783 SRC:30 DST:15 ADR:0x00d5e300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  802   ID:575 CYC:779 SRC:31 DST:25 ADR:0x00d9f040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  803   ID:595 CYC:786 SRC:2 DST:20 ADR:0x00d82300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  804   ID:587 CYC:783 SRC:2 DST:21 ADR:0x00d82300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  805   ID:597 CYC:788 SRC:17 DST:12 ADR:0x00d51040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  806   ID:592 CYC:786 SRC:42 DST:16 ADR:0x00d6a300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  806   ID:596 CYC:786 SRC:48 DST:17 ADR:0x00d70300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  807   ID:581 CYC:783 SRC:42 DST:17 ADR:0x00d6a300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  807   ID:589 CYC:783 SRC:48 DST:18 ADR:0x00d70300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  815   ID:605 CYC:815 SRC:13 DST:24 ADR:0x00d58300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 606 610
+Inject:  815   ID:603 CYC:815 SRC:23 DST:20 ADR:0x00d94300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 604 609
+Inject:  815   ID:602 CYC:807 SRC:51 DST:8 ADR:0x00d33b80 TYP:UpgradeResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  815   ID:593 CYC:786 SRC:54 DST:18 ADR:0x00d76300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  816   ID:608 CYC:816 SRC:28 DST:3 ADR:0x0035c6c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  816   ID:583 CYC:783 SRC:54 DST:19 ADR:0x00d76300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  823   ID:611 CYC:823 SRC:0 DST:15 ADR:0x00d0f040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 621
+Inject:  827   ID:612 CYC:827 SRC:7 DST:51 ADR:0x00d33040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 615
+Inject:  828   ID:613 CYC:828 SRC:4 DST:42 ADR:0x004eae00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 622
+Inject:  829   ID:607 CYC:815 SRC:54 DST:9 ADR:0x00336700 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  830   ID:614 CYC:830 SRC:9 DST:54 ADR:0x00336740 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 623
+Inject:  831   ID:616 CYC:831 SRC:9 DST:58 ADR:0x00d3a300 TYP:UpgradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 626 801
+Inject:  832   ID:609 CYC:818 SRC:20 DST:23 ADR:0x00d94300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  833   ID:604 CYC:815 SRC:20 DST:24 ADR:0x00d94300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  838   ID:617 CYC:838 SRC:9 DST:57 ADR:0x00d39bc0 TYP:UpgradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 631 803
+Inject:  842   ID:618 CYC:842 SRC:10 DST:5 ADR:0x00d45b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 619 620
+Inject:  844   ID:610 CYC:818 SRC:24 DST:13 ADR:0x00d58300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  845   ID:606 CYC:815 SRC:24 DST:14 ADR:0x00d58300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  852   ID:622 CYC:852 SRC:42 DST:4 ADR:0x004eae00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  854   ID:624 CYC:854 SRC:10 DST:5 ADR:0x00d45bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 625 628
+Inject:  855   ID:621 CYC:847 SRC:15 DST:0 ADR:0x00d0f040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  855   ID:626 CYC:855 SRC:58 DST:16 ADR:0x00d3a300 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 776
+Inject:  856   ID:627 CYC:856 SRC:8 DST:54 ADR:0x00336700 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 647
+Inject:  858   ID:629 CYC:858 SRC:21 DST:13 ADR:0x00d8d040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 630
+Inject:  862   ID:620 CYC:845 SRC:5 DST:10 ADR:0x00d45b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  862   ID:631 CYC:862 SRC:57 DST:5 ADR:0x00d39bc0 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 787
+Inject:  863   ID:632 CYC:863 SRC:3 DST:28 ADR:0x0035c700 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 653
+Inject:  863   ID:619 CYC:842 SRC:5 DST:11 ADR:0x00d45b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  865   ID:633 CYC:865 SRC:3 DST:12 ADR:0x1f08c800 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 654
+Inject:  865   ID:615 CYC:830 SRC:51 DST:7 ADR:0x00d33040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  866   ID:634 CYC:866 SRC:2 DST:45 ADR:0x00d2d040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 637
+Inject:  866   ID:635 CYC:866 SRC:5 DST:45 ADR:0x00d2db80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 636 638
+Inject:  868   ID:623 CYC:854 SRC:54 DST:9 ADR:0x00336740 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  869   ID:630 CYC:861 SRC:13 DST:21 ADR:0x00d8d040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  870   ID:639 CYC:870 SRC:3 DST:12 ADR:0x1f08c780 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 661
+Inject:  872   ID:640 CYC:872 SRC:6 DST:45 ADR:0x00d2d040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 643
+Inject:  874   ID:641 CYC:874 SRC:5 DST:45 ADR:0x00d2dbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 642 644
+Inject:  875   ID:628 CYC:857 SRC:5 DST:10 ADR:0x00d45bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  876   ID:625 CYC:854 SRC:5 DST:11 ADR:0x00d45bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  880   ID:645 CYC:880 SRC:24 DST:25 ADR:0x00d99b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 646 648
+Inject:  887   ID:651 CYC:887 SRC:15 DST:35 ADR:0x00d63b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 652 656
+Inject:  887   ID:649 CYC:887 SRC:26 DST:37 ADR:0x00da5b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 650 655
+Inject:  887   ID:653 CYC:887 SRC:28 DST:3 ADR:0x0035c700 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  889   ID:654 CYC:889 SRC:12 DST:3 ADR:0x1f08c800 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  889   ID:638 CYC:869 SRC:45 DST:5 ADR:0x00d2db80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  890   ID:636 CYC:866 SRC:45 DST:7 ADR:0x00d2db80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  891   ID:648 CYC:883 SRC:25 DST:24 ADR:0x00d99b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  892   ID:660 CYC:892 SRC:3 DST:36 ADR:0x1e424800 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  892   ID:658 CYC:892 SRC:24 DST:25 ADR:0x00d99bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 659 662
+Inject:  892   ID:646 CYC:880 SRC:25 DST:25 ADR:0x00d99b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  892   ID:657 CYC:892 SRC:29 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 688
+Inject:  894   ID:661 CYC:894 SRC:12 DST:3 ADR:0x1f08c780 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  896   ID:663 CYC:896 SRC:8 DST:52 ADR:0x00d34300 TYP:UpgradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:3 664 691 863
+Inject:  897   ID:665 CYC:897 SRC:3 DST:36 ADR:0x1e424780 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  897   ID:644 CYC:877 SRC:45 DST:5 ADR:0x00d2dbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  897   ID:647 CYC:880 SRC:54 DST:8 ADR:0x00336700 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  898   ID:642 CYC:874 SRC:45 DST:7 ADR:0x00d2dbc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  899   ID:670 CYC:899 SRC:15 DST:35 ADR:0x00d63bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 671 675
+Inject:  899   ID:668 CYC:899 SRC:26 DST:37 ADR:0x00da5bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 669 674
+Inject:  899   ID:666 CYC:899 SRC:27 DST:43 ADR:0x00dabb80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 667 673
+Inject:  899   ID:643 CYC:875 SRC:45 DST:6 ADR:0x00d2d040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  900   ID:637 CYC:869 SRC:45 DST:2 ADR:0x00d2d040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  902   ID:672 CYC:902 SRC:3 DST:28 ADR:0x0035ce00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 692
+Inject:  903   ID:676 CYC:903 SRC:8 DST:51 ADR:0x00d33bc0 TYP:UpgradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:3 677 693 868
+Inject:  904   ID:678 CYC:904 SRC:8 DST:48 ADR:0x00330640 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 694
+Inject:  904   ID:662 CYC:895 SRC:25 DST:24 ADR:0x00d99bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  905   ID:659 CYC:892 SRC:25 DST:25 ADR:0x00d99bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  907   ID:655 CYC:890 SRC:37 DST:26 ADR:0x00da5b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  908   ID:650 CYC:887 SRC:37 DST:27 ADR:0x00da5b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  910   ID:681 CYC:910 SRC:5 DST:46 ADR:0x00d2e300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 682 686
+Inject:  910   ID:679 CYC:910 SRC:10 DST:6 ADR:0x00d46300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 680 685
+Inject:  911   ID:683 CYC:911 SRC:27 DST:43 ADR:0x00dabbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 684 687
+Inject:  913   ID:673 CYC:902 SRC:43 DST:27 ADR:0x00dabb80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  914   ID:667 CYC:899 SRC:43 DST:28 ADR:0x00dabb80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  916   ID:656 CYC:890 SRC:35 DST:15 ADR:0x00d63b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  916   ID:688 CYC:916 SRC:49 DST:29 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  917   ID:689 CYC:917 SRC:1 DST:21 ADR:0x00d15040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 690
+Inject:  917   ID:652 CYC:887 SRC:35 DST:16 ADR:0x00d63b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  919   ID:674 CYC:902 SRC:37 DST:26 ADR:0x00da5bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  920   ID:669 CYC:899 SRC:37 DST:27 ADR:0x00da5bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  925   ID:687 CYC:914 SRC:43 DST:27 ADR:0x00dabbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  926   ID:692 CYC:926 SRC:28 DST:3 ADR:0x0035ce00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  926   ID:684 CYC:911 SRC:43 DST:28 ADR:0x00dabbc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  928   ID:695 CYC:928 SRC:25 DST:31 ADR:0x00d9fb80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 696 697
+Inject:  928   ID:675 CYC:902 SRC:35 DST:15 ADR:0x00d63bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  928   ID:694 CYC:928 SRC:48 DST:8 ADR:0x00330640 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  929   ID:671 CYC:899 SRC:35 DST:16 ADR:0x00d63bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  931   ID:691 CYC:920 SRC:52 DST:40 ADR:0x00d34300 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 822
+Inject:  932   ID:664 CYC:896 SRC:52 DST:9 ADR:0x00d34300 TYP:InvalidateReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  933   ID:685 CYC:913 SRC:6 DST:10 ADR:0x00d46300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  934   ID:680 CYC:910 SRC:6 DST:11 ADR:0x00d46300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  934   ID:698 CYC:934 SRC:9 DST:45 ADR:0x0032da80 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 728
+Inject:  935   ID:699 CYC:935 SRC:3 DST:28 ADR:0x0035cdc0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 730
+Inject:  935   ID:693 CYC:927 SRC:51 DST:23 ADR:0x00d33bc0 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 831
+Inject:  936   ID:686 CYC:913 SRC:46 DST:5 ADR:0x00d2e300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  936   ID:677 CYC:903 SRC:51 DST:9 ADR:0x00d33bc0 TYP:InvalidateReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  937   ID:700 CYC:937 SRC:12 DST:17 ADR:0x00d51b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 701 706
+Inject:  937   ID:682 CYC:910 SRC:46 DST:7 ADR:0x00d2e300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  938   ID:702 CYC:938 SRC:19 DST:1 ADR:0x00d81040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 707
+Inject:  940   ID:705 CYC:940 SRC:11 DST:11 ADR:0x00d4b040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 709
+Inject:  940   ID:703 CYC:940 SRC:25 DST:31 ADR:0x00d9fbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 704 708
+Inject:  943   ID:690 CYC:920 SRC:21 DST:1 ADR:0x00d15040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  948   ID:710 CYC:948 SRC:24 DST:26 ADR:0x00d9a300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 711 714
+Inject:  949   ID:712 CYC:949 SRC:12 DST:17 ADR:0x00d51bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 713 715
+Inject:  951   ID:709 CYC:943 SRC:11 DST:11 ADR:0x00d4b040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  954   ID:697 CYC:931 SRC:31 DST:25 ADR:0x00d9fb80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  955   ID:718 CYC:955 SRC:15 DST:36 ADR:0x00d64300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 719 729
+Inject:  955   ID:716 CYC:955 SRC:26 DST:38 ADR:0x00da6300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 717 727
+Inject:  955   ID:696 CYC:928 SRC:31 DST:26 ADR:0x00d9fb80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  956   ID:723 CYC:956 SRC:2 DST:45 ADR:0x00d2db80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 734
+Inject:  956   ID:726 CYC:956 SRC:14 DST:35 ADR:0x00d63040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 737
+Inject:  956   ID:725 CYC:956 SRC:16 DST:47 ADR:0x00d6f040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 736
+Inject:  956   ID:720 CYC:956 SRC:17 DST:53 ADR:0x00d75040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 731
+Inject:  956   ID:724 CYC:956 SRC:18 DST:59 ADR:0x00d7b040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 735
+Inject:  956   ID:721 CYC:956 SRC:20 DST:7 ADR:0x00d87040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 732
+Inject:  956   ID:722 CYC:956 SRC:22 DST:19 ADR:0x00d93040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 733
+Inject:  957   ID:706 CYC:940 SRC:17 DST:12 ADR:0x00d51b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  958   ID:707 CYC:941 SRC:1 DST:19 ADR:0x00d81040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  958   ID:701 CYC:937 SRC:17 DST:13 ADR:0x00d51b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  959   ID:730 CYC:959 SRC:28 DST:3 ADR:0x0035cdc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  960   ID:738 CYC:960 SRC:0 DST:15 ADR:0x00d0fb80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 755
+Inject:  962   ID:714 CYC:951 SRC:26 DST:24 ADR:0x00d9a300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  963   ID:711 CYC:948 SRC:26 DST:25 ADR:0x00d9a300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  964   ID:739 CYC:964 SRC:2 DST:45 ADR:0x00d2dbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 742
+Inject:  966   ID:708 CYC:943 SRC:31 DST:25 ADR:0x00d9fbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  966   ID:728 CYC:958 SRC:45 DST:9 ADR:0x0032da80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  967   ID:740 CYC:967 SRC:27 DST:44 ADR:0x00dac300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 741 745
+Inject:  967   ID:704 CYC:940 SRC:31 DST:26 ADR:0x00d9fbc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  968   ID:743 CYC:968 SRC:0 DST:15 ADR:0x00d0fbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 760
+Inject:  968   ID:744 CYC:968 SRC:21 DST:13 ADR:0x00d8db80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 746
+Inject:  969   ID:715 CYC:952 SRC:17 DST:12 ADR:0x00d51bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  970   ID:713 CYC:949 SRC:17 DST:13 ADR:0x00d51bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  973   ID:733 CYC:959 SRC:19 DST:22 ADR:0x00d93040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  974   ID:747 CYC:974 SRC:9 DST:54 ADR:0x00336780 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 765
+Inject:  975   ID:748 CYC:975 SRC:7 DST:30 ADR:0x0085e000 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 766
+Inject:  976   ID:749 CYC:976 SRC:21 DST:13 ADR:0x00d8dbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 751
+Inject:  978   ID:750 CYC:978 SRC:23 DST:25 ADR:0x00d99040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 753
+Inject:  978   ID:727 CYC:958 SRC:38 DST:26 ADR:0x00da6300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  979   ID:732 CYC:959 SRC:7 DST:20 ADR:0x00d87040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  979   ID:746 CYC:971 SRC:13 DST:21 ADR:0x00d8db80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  979   ID:717 CYC:955 SRC:38 DST:27 ADR:0x00da6300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  981   ID:752 CYC:981 SRC:4 DST:49 ADR:0x00331000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 777
+Inject:  981   ID:729 CYC:958 SRC:36 DST:15 ADR:0x00d64300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  982   ID:737 CYC:959 SRC:35 DST:14 ADR:0x00d63040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  982   ID:719 CYC:955 SRC:36 DST:16 ADR:0x00d64300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  982   ID:735 CYC:959 SRC:59 DST:18 ADR:0x00d7b040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  984   ID:754 CYC:984 SRC:31 DST:3 ADR:0x00d03040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 756
+Inject:  984   ID:745 CYC:970 SRC:44 DST:27 ADR:0x00dac300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  985   ID:741 CYC:967 SRC:44 DST:28 ADR:0x00dac300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  987   ID:751 CYC:979 SRC:13 DST:21 ADR:0x00d8dbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  988   ID:757 CYC:988 SRC:13 DST:29 ADR:0x00d5d040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 758
+Inject:  988   ID:734 CYC:959 SRC:45 DST:2 ADR:0x00d2db80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  988   ID:731 CYC:959 SRC:53 DST:17 ADR:0x00d75040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  992   ID:759 CYC:992 SRC:3 DST:5 ADR:0x003451c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 792
+Inject:  992   ID:755 CYC:984 SRC:15 DST:0 ADR:0x00d0fb80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  993   ID:761 CYC:993 SRC:8 DST:48 ADR:0x00330680 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 793
+Inject:  994   ID:736 CYC:959 SRC:47 DST:16 ADR:0x00d6f040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  996   ID:762 CYC:996 SRC:25 DST:32 ADR:0x00da0300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 763 767
+Inject:  996   ID:742 CYC:967 SRC:45 DST:2 ADR:0x00d2dbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  997   ID:764 CYC:997 SRC:5 DST:51 ADR:0x00d33040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 770
+Inject:  999   ID:766 CYC:999 SRC:30 DST:7 ADR:0x0085e000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1000   ID:768 CYC:1000 SRC:2 DST:46 ADR:0x00d2e300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 773
+Inject:  1000   ID:769 CYC:1000 SRC:3 DST:22 ADR:0x00856d40 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 797
+Inject:  1000   ID:760 CYC:992 SRC:15 DST:0 ADR:0x00d0fbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1001   ID:771 CYC:1001 SRC:8 DST:45 ADR:0x0032da80 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 798
+Inject:  1002   ID:772 CYC:1002 SRC:7 DST:36 ADR:0x1f164000 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  1002   ID:758 CYC:991 SRC:29 DST:13 ADR:0x00d5d040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1005   ID:774 CYC:1005 SRC:12 DST:18 ADR:0x00d52300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 775 782
+Inject:  1005   ID:776 CYC:1005 SRC:16 DST:58 ADR:0x00d3a300 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 801
+Inject:  1007   ID:753 CYC:981 SRC:25 DST:23 ADR:0x00d99040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1008   ID:778 CYC:1008 SRC:1 DST:21 ADR:0x00d15b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 779 784
+Inject:  1008   ID:780 CYC:1008 SRC:7 DST:51 ADR:0x00d33b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 781 785
+Inject:  1009   ID:783 CYC:1009 SRC:7 DST:51 ADR:0x00d33bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 873
+Inject:  1010   ID:767 CYC:999 SRC:32 DST:25 ADR:0x00da0300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1011   ID:763 CYC:996 SRC:32 DST:26 ADR:0x00da0300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1012   ID:787 CYC:1012 SRC:5 DST:57 ADR:0x00d39bc0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 803
+Inject:  1012   ID:786 CYC:1012 SRC:21 DST:14 ADR:0x00d8e300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 788
+Inject:  1012   ID:765 CYC:998 SRC:54 DST:9 ADR:0x00336780 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1013   ID:756 CYC:987 SRC:3 DST:31 ADR:0x00d03040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1016   ID:790 CYC:1016 SRC:1 DST:21 ADR:0x00d15bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 791 795
+Inject:  1016   ID:792 CYC:1016 SRC:5 DST:3 ADR:0x003451c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1016   ID:789 CYC:1016 SRC:9 DST:54 ADR:0x003367c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 806
+Inject:  1016   ID:777 CYC:1005 SRC:49 DST:4 ADR:0x00331000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1017   ID:793 CYC:1017 SRC:48 DST:8 ADR:0x00330680 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1018   ID:794 CYC:1018 SRC:4 DST:49 ADR:0x003310c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 808
+Inject:  1021   ID:796 CYC:1021 SRC:0 DST:16 ADR:0x00d10300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 809
+Inject:  1022   ID:782 CYC:1008 SRC:18 DST:12 ADR:0x00d52300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1023   ID:775 CYC:1005 SRC:18 DST:13 ADR:0x00d52300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1024   ID:797 CYC:1024 SRC:22 DST:3 ADR:0x00856d40 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1025   ID:799 CYC:1025 SRC:6 DST:45 ADR:0x00d2db80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 800
+Inject:  1026   ID:788 CYC:1015 SRC:14 DST:21 ADR:0x00d8e300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1029   ID:770 CYC:1000 SRC:51 DST:5 ADR:0x00d33040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1029   ID:801 CYC:1029 SRC:58 DST:9 ADR:0x00d3a300 TYP:UpgradeResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1031   ID:802 CYC:1031 SRC:3 DST:5 ADR:0x00345200 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 814
+Inject:  1034   ID:784 CYC:1011 SRC:21 DST:1 ADR:0x00d15b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1035   ID:779 CYC:1008 SRC:21 DST:3 ADR:0x00d15b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1035   ID:773 CYC:1003 SRC:46 DST:2 ADR:0x00d2e300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1036   ID:798 CYC:1025 SRC:45 DST:8 ADR:0x0032da80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1037   ID:804 CYC:1037 SRC:6 DST:45 ADR:0x00d2dbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 805
+Inject:  1041   ID:807 CYC:1041 SRC:8 DST:54 ADR:0x00336780 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 818
+Inject:  1042   ID:795 CYC:1019 SRC:21 DST:1 ADR:0x00d15bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1043   ID:791 CYC:1016 SRC:21 DST:3 ADR:0x00d15bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1045   ID:809 CYC:1045 SRC:16 DST:0 ADR:0x00d10300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1046   ID:785 CYC:1011 SRC:51 DST:7 ADR:0x00d33b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1047   ID:781 CYC:1008 SRC:51 DST:8 ADR:0x00d33b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1051   ID:800 CYC:1028 SRC:45 DST:6 ADR:0x00d2db80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1052   ID:810 CYC:1052 SRC:1 DST:22 ADR:0x00d16300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 811 813
+Inject:  1053   ID:812 CYC:1053 SRC:9 DST:54 ADR:0x00336800 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 832
+Inject:  1053   ID:808 CYC:1042 SRC:49 DST:4 ADR:0x003310c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1053   ID:803 CYC:1036 SRC:57 DST:9 ADR:0x00d39bc0 TYP:UpgradeResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1054   ID:806 CYC:1040 SRC:54 DST:9 ADR:0x003367c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1055   ID:814 CYC:1055 SRC:5 DST:3 ADR:0x00345200 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1058   ID:815 CYC:1058 SRC:19 DST:1 ADR:0x00d81b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 816
+Inject:  1063   ID:805 CYC:1040 SRC:45 DST:6 ADR:0x00d2dbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1064   ID:817 CYC:1064 SRC:3 DST:4 ADR:0x00344f80 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 857
+Inject:  1066   ID:819 CYC:1066 SRC:19 DST:1 ADR:0x00d81bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 821
+Inject:  1069   ID:820 CYC:1069 SRC:23 DST:25 ADR:0x00d99b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 823
+Inject:  1070   ID:822 CYC:1070 SRC:40 DST:52 ADR:0x00d34300 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 863
+Inject:  1076   ID:829 CYC:1076 SRC:14 DST:35 ADR:0x00d63b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 838
+Inject:  1076   ID:828 CYC:1076 SRC:16 DST:47 ADR:0x00d6fb80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 837
+Inject:  1076   ID:824 CYC:1076 SRC:17 DST:53 ADR:0x00d75b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 833
+Inject:  1076   ID:827 CYC:1076 SRC:18 DST:59 ADR:0x00d7bb80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 836
+Inject:  1076   ID:825 CYC:1076 SRC:20 DST:7 ADR:0x00d87b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 834
+Inject:  1076   ID:826 CYC:1076 SRC:22 DST:19 ADR:0x00d93b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 835
+Inject:  1077   ID:831 CYC:1077 SRC:23 DST:51 ADR:0x00d33bc0 TYP:UpgradeResp SrcType:Memory Controller DstType:L2 Cache NDEP:1 868
+Inject:  1078   ID:816 CYC:1061 SRC:1 DST:19 ADR:0x00d81b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1078   ID:830 CYC:1077 SRC:23 DST:25 ADR:0x00d99bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 839
+Inject:  1081   ID:813 CYC:1055 SRC:22 DST:1 ADR:0x00d16300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1082   ID:840 CYC:1082 SRC:5 DST:30 ADR:0x0085e000 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 875
+Inject:  1082   ID:811 CYC:1052 SRC:22 DST:3 ADR:0x00d16300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1082   ID:818 CYC:1065 SRC:54 DST:8 ADR:0x00336780 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1083   ID:841 CYC:1083 SRC:8 DST:54 ADR:0x003367c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 876
+Inject:  1083   ID:842 CYC:1083 SRC:10 DST:11 ADR:0x00d4b040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 849
+Inject:  1084   ID:848 CYC:1084 SRC:14 DST:35 ADR:0x00d63bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 856
+Inject:  1084   ID:847 CYC:1084 SRC:16 DST:47 ADR:0x00d6fbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 855
+Inject:  1084   ID:843 CYC:1084 SRC:17 DST:53 ADR:0x00d75bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 851
+Inject:  1084   ID:846 CYC:1084 SRC:18 DST:59 ADR:0x00d7bbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 854
+Inject:  1084   ID:844 CYC:1084 SRC:20 DST:7 ADR:0x00d87bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 852
+Inject:  1084   ID:845 CYC:1084 SRC:22 DST:19 ADR:0x00d93bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 853
+Inject:  1086   ID:821 CYC:1069 SRC:1 DST:19 ADR:0x00d81bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1087   ID:850 CYC:1087 SRC:2 DST:51 ADR:0x00d33040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 858
+Inject:  1088   ID:857 CYC:1088 SRC:4 DST:3 ADR:0x00344f80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1091   ID:859 CYC:1091 SRC:9 DST:28 ADR:0x0035c680 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 883
+Inject:  1091   ID:832 CYC:1077 SRC:54 DST:9 ADR:0x00336800 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1092   ID:860 CYC:1092 SRC:11 DST:11 ADR:0x00d4bb80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 861 865
+Inject:  1093   ID:862 CYC:1093 SRC:6 DST:46 ADR:0x00d2e300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 867
+Inject:  1093   ID:835 CYC:1079 SRC:19 DST:22 ADR:0x00d93b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1094   ID:849 CYC:1086 SRC:11 DST:10 ADR:0x00d4b040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1094   ID:863 CYC:1094 SRC:52 DST:8 ADR:0x00d34300 TYP:UpgradeResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1095   ID:864 CYC:1095 SRC:9 DST:21 ADR:0x00855640 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 893
+Inject:  1096   ID:866 CYC:1096 SRC:3 DST:4 ADR:0x00344fc0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 895
+Inject:  1098   ID:823 CYC:1072 SRC:25 DST:23 ADR:0x00d99b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1099   ID:834 CYC:1079 SRC:7 DST:20 ADR:0x00d87b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1101   ID:853 CYC:1087 SRC:19 DST:22 ADR:0x00d93bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1102   ID:870 CYC:1102 SRC:19 DST:2 ADR:0x00d82300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 874
+Inject:  1102   ID:838 CYC:1079 SRC:35 DST:14 ADR:0x00d63b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1102   ID:836 CYC:1079 SRC:59 DST:18 ADR:0x00d7bb80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1103   ID:865 CYC:1095 SRC:11 DST:11 ADR:0x00d4bb80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1104   ID:861 CYC:1092 SRC:11 DST:12 ADR:0x00d4bb80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1104   ID:873 CYC:1104 SRC:51 DST:7 ADR:0x00d33bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1105   ID:871 CYC:1104 SRC:11 DST:11 ADR:0x00d4bbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 872 877
+Inject:  1106   ID:875 CYC:1106 SRC:30 DST:5 ADR:0x0085e000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1107   ID:852 CYC:1087 SRC:7 DST:20 ADR:0x00d87bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1107   ID:839 CYC:1080 SRC:25 DST:23 ADR:0x00d99bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1108   ID:878 CYC:1108 SRC:13 DST:29 ADR:0x00d5db80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 880
+Inject:  1108   ID:833 CYC:1079 SRC:53 DST:17 ADR:0x00d75b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1109   ID:879 CYC:1109 SRC:5 DST:28 ADR:0x1f11c000 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  1109   ID:868 CYC:1101 SRC:51 DST:8 ADR:0x00d33bc0 TYP:UpgradeResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:1 869
+Inject:  1110   ID:856 CYC:1087 SRC:35 DST:14 ADR:0x00d63bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1110   ID:854 CYC:1087 SRC:59 DST:18 ADR:0x00d7bbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1113   ID:881 CYC:1113 SRC:23 DST:26 ADR:0x00d9a300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 888
+Inject:  1114   ID:837 CYC:1079 SRC:47 DST:16 ADR:0x00d6fb80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1115   ID:882 CYC:1115 SRC:5 DST:51 ADR:0x00d33b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 889
+Inject:  1115   ID:883 CYC:1115 SRC:28 DST:9 ADR:0x0035c680 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1116   ID:884 CYC:1116 SRC:5 DST:51 ADR:0x00d33bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 892
+Inject:  1116   ID:886 CYC:1116 SRC:8 DST:51 ADR:0x00d33b80 TYP:UpgradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:3 887 926 1073
+Inject:  1116   ID:877 CYC:1107 SRC:11 DST:11 ADR:0x00d4bbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1116   ID:885 CYC:1116 SRC:13 DST:29 ADR:0x00d5dbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 894
+Inject:  1116   ID:867 CYC:1096 SRC:46 DST:6 ADR:0x00d2e300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1116   ID:858 CYC:1090 SRC:51 DST:2 ADR:0x00d33040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1116   ID:851 CYC:1087 SRC:53 DST:17 ADR:0x00d75bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1117   ID:872 CYC:1104 SRC:11 DST:12 ADR:0x00d4bbc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1118   ID:891 CYC:1118 SRC:26 DST:43 ADR:0x00dab040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 903
+Inject:  1119   ID:874 CYC:1105 SRC:2 DST:19 ADR:0x00d82300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1119   ID:893 CYC:1119 SRC:21 DST:9 ADR:0x00855640 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1120   ID:895 CYC:1120 SRC:4 DST:3 ADR:0x00344fc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1120   ID:901 CYC:1120 SRC:14 DST:36 ADR:0x00d64300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 911
+Inject:  1120   ID:900 CYC:1120 SRC:16 DST:48 ADR:0x00d70300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 910
+Inject:  1120   ID:896 CYC:1120 SRC:17 DST:54 ADR:0x00d76300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 906
+Inject:  1120   ID:899 CYC:1120 SRC:18 DST:60 ADR:0x00d7c300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 909
+Inject:  1120   ID:897 CYC:1120 SRC:20 DST:8 ADR:0x00d88300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 907
+Inject:  1120   ID:898 CYC:1120 SRC:22 DST:20 ADR:0x00d94300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 908
+Inject:  1121   ID:902 CYC:1121 SRC:24 DST:31 ADR:0x00d9f040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 912
+Inject:  1122   ID:904 CYC:1122 SRC:9 DST:47 ADR:0x1e22f640 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  1122   ID:880 CYC:1111 SRC:29 DST:13 ADR:0x00d5db80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1122   ID:855 CYC:1087 SRC:47 DST:16 ADR:0x00d6fbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1123   ID:905 CYC:1123 SRC:7 DST:51 ADR:0x00d33b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 1078
+Inject:  1124   ID:876 CYC:1107 SRC:54 DST:8 ADR:0x003367c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1126   ID:913 CYC:1126 SRC:5 DST:51 ADR:0x00d33b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 1079
+Inject:  1126   ID:914 CYC:1126 SRC:9 DST:28 ADR:0x0035c6c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 932
+Inject:  1128   ID:916 CYC:1128 SRC:7 DST:52 ADR:0x00d34300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 917 921
+Inject:  1128   ID:915 CYC:1128 SRC:15 DST:41 ADR:0x00d69040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 920
+Inject:  1130   ID:894 CYC:1119 SRC:29 DST:13 ADR:0x00d5dbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1131   ID:918 CYC:1131 SRC:31 DST:3 ADR:0x00d03b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 919 923
+Inject:  1134   ID:908 CYC:1123 SRC:20 DST:22 ADR:0x00d94300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1134   ID:922 CYC:1134 SRC:21 DST:19 ADR:0x00d93040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 924
+Inject:  1135   ID:903 CYC:1121 SRC:43 DST:26 ADR:0x00dab040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1139   ID:888 CYC:1116 SRC:26 DST:23 ADR:0x00d9a300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1140   ID:925 CYC:1140 SRC:27 DST:49 ADR:0x00db1040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 929
+Inject:  1140   ID:910 CYC:1123 SRC:48 DST:16 ADR:0x00d70300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1141   ID:869 CYC:1101 SRC:8 DST:8 ADR:0x00d33bc0 TYP:DowngradeReq SrcType:L1 Data Cache DstType:L1 Data Cache NDEP:0
+Inject:  1143   ID:907 CYC:1123 SRC:8 DST:20 ADR:0x00d88300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1143   ID:927 CYC:1143 SRC:31 DST:3 ADR:0x00d03bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 928 930
+Inject:  1143   ID:911 CYC:1123 SRC:36 DST:14 ADR:0x00d64300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1147   ID:889 CYC:1118 SRC:51 DST:5 ADR:0x00d33b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:1 890
+Inject:  1148   ID:924 CYC:1137 SRC:19 DST:21 ADR:0x00d93040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1148   ID:926 CYC:1140 SRC:51 DST:23 ADR:0x00d33b80 TYP:UpgradeReq SrcType:L2 Cache DstType:Memory Controller NDEP:1 1043
+Inject:  1149   ID:931 CYC:1149 SRC:8 DST:54 ADR:0x00336800 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 946
+Inject:  1149   ID:887 CYC:1116 SRC:51 DST:7 ADR:0x00d33b80 TYP:InvalidateReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1149   ID:909 CYC:1123 SRC:60 DST:18 ADR:0x00d7c300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1150   ID:932 CYC:1150 SRC:28 DST:9 ADR:0x0035c6c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1150   ID:912 CYC:1124 SRC:31 DST:24 ADR:0x00d9f040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1150   ID:892 CYC:1119 SRC:51 DST:5 ADR:0x00d33bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1152   ID:933 CYC:1152 SRC:13 DST:30 ADR:0x00d5e300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 935
+Inject:  1152   ID:934 CYC:1152 SRC:30 DST:61 ADR:0x00dbd040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 936
+Inject:  1155   ID:906 CYC:1123 SRC:54 DST:17 ADR:0x00d76300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1160   ID:923 CYC:1134 SRC:3 DST:31 ADR:0x00d03b80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1160   ID:937 CYC:1160 SRC:11 DST:12 ADR:0x00d4c300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 938 939
+Inject:  1161   ID:919 CYC:1131 SRC:3 DST:0 ADR:0x00d03b80 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1163   ID:929 CYC:1143 SRC:49 DST:27 ADR:0x00db1040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1163   ID:921 CYC:1131 SRC:52 DST:7 ADR:0x00d34300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1164   ID:917 CYC:1128 SRC:52 DST:8 ADR:0x00d34300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1165   ID:940 CYC:1165 SRC:1 DST:27 ADR:0x00d1b040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 941
+Inject:  1166   ID:920 CYC:1131 SRC:41 DST:15 ADR:0x00d69040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1169   ID:942 CYC:1169 SRC:25 DST:37 ADR:0x00da5040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 945
+Inject:  1169   ID:935 CYC:1155 SRC:30 DST:13 ADR:0x00d5e300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1171   ID:943 CYC:1171 SRC:0 DST:21 ADR:0x00d15040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 947
+Inject:  1171   ID:939 CYC:1163 SRC:12 DST:11 ADR:0x00d4c300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1172   ID:944 CYC:1172 SRC:2 DST:30 ADR:0x0085e000 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 956
+Inject:  1172   ID:930 CYC:1146 SRC:3 DST:31 ADR:0x00d03bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1172   ID:938 CYC:1160 SRC:12 DST:12 ADR:0x00d4c300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1173   ID:928 CYC:1143 SRC:3 DST:0 ADR:0x00d03bc0 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1175   ID:936 CYC:1155 SRC:61 DST:30 ADR:0x00dbd040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1178   ID:948 CYC:1178 SRC:12 DST:23 ADR:0x00d57040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 950
+Inject:  1179   ID:890 CYC:1118 SRC:5 DST:5 ADR:0x00d33b80 TYP:InvalidateReq SrcType:L1 Data Cache DstType:L1 Data Cache NDEP:0
+Inject:  1180   ID:949 CYC:1180 SRC:29 DST:55 ADR:0x00db7040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 951
+Inject:  1187   ID:952 CYC:1187 SRC:8 DST:28 ADR:0x0035c680 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 969
+Inject:  1188   ID:941 CYC:1168 SRC:27 DST:1 ADR:0x00d1b040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1190   ID:946 CYC:1173 SRC:54 DST:8 ADR:0x00336800 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1191   ID:953 CYC:1191 SRC:8 DST:21 ADR:0x00855640 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 972
+Inject:  1192   ID:945 CYC:1172 SRC:37 DST:25 ADR:0x00da5040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1195   ID:954 CYC:1195 SRC:9 DST:28 ADR:0x0035ce00 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 975
+Inject:  1196   ID:955 CYC:1196 SRC:3 DST:5 ADR:0x00345000 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 976
+Inject:  1196   ID:956 CYC:1196 SRC:30 DST:2 ADR:0x0085e000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1198   ID:950 CYC:1181 SRC:23 DST:12 ADR:0x00d57040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1199   ID:960 CYC:1199 SRC:2 DST:34 ADR:0x008a2000 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  1199   ID:959 CYC:1199 SRC:9 DST:10 ADR:0x1f14a900 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 980
+Inject:  1199   ID:957 CYC:1199 SRC:31 DST:4 ADR:0x00d04300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:2 958 961
+Inject:  1200   ID:947 CYC:1174 SRC:21 DST:0 ADR:0x00d15040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1203   ID:962 CYC:1203 SRC:10 DST:11 ADR:0x00d4bb80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 965
+Inject:  1203   ID:951 CYC:1183 SRC:55 DST:29 ADR:0x00db7040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1205   ID:963 CYC:1205 SRC:2 DST:51 ADR:0x00d33b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 1080
+Inject:  1206   ID:964 CYC:1206 SRC:2 DST:51 ADR:0x00d33bc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 967
+Inject:  1209   ID:966 CYC:1209 SRC:26 DST:43 ADR:0x00dabb80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 970
+Inject:  1211   ID:968 CYC:1211 SRC:10 DST:11 ADR:0x00d4bbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 971
+Inject:  1211   ID:969 CYC:1211 SRC:28 DST:8 ADR:0x0035c680 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1214   ID:965 CYC:1206 SRC:11 DST:10 ADR:0x00d4bb80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1215   ID:972 CYC:1215 SRC:21 DST:8 ADR:0x00855640 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1217   ID:973 CYC:1217 SRC:26 DST:43 ADR:0x00dabbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 977
+Inject:  1218   ID:974 CYC:1218 SRC:8 DST:35 ADR:0x1fca3640 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  1219   ID:975 CYC:1219 SRC:28 DST:9 ADR:0x0035ce00 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1220   ID:976 CYC:1220 SRC:5 DST:3 ADR:0x00345000 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1222   ID:979 CYC:1222 SRC:8 DST:28 ADR:0x0035c6c0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 995
+Inject:  1222   ID:971 CYC:1214 SRC:11 DST:10 ADR:0x00d4bbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1222   ID:978 CYC:1222 SRC:28 DST:49 ADR:0x00db1040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 981
+Inject:  1223   ID:980 CYC:1223 SRC:10 DST:9 ADR:0x1f14a900 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1225   ID:961 CYC:1202 SRC:4 DST:31 ADR:0x00d04300 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1226   ID:958 CYC:1199 SRC:4 DST:0 ADR:0x00d04300 TYP:DowngradeReq SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1226   ID:983 CYC:1226 SRC:9 DST:4 ADR:0x1fcc4900 TYP:Writeback SrcType:L1 Data Cache DstType:L2 Cache NDEP:0
+Inject:  1226   ID:982 CYC:1226 SRC:23 DST:31 ADR:0x00d9f040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 985
+Inject:  1226   ID:970 CYC:1212 SRC:43 DST:26 ADR:0x00dabb80 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1229   ID:984 CYC:1229 SRC:3 DST:4 ADR:0x00344e40 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 1010
+Inject:  1230   ID:986 CYC:1230 SRC:9 DST:28 ADR:0x0035cdc0 TYP:ReadReq SrcType:L1 Instruction Cache DstType:L2 Cache NDEP:1 1015
+Inject:  1232   ID:989 CYC:1232 SRC:9 DST:10 ADR:0x1f14a940 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 1019
+Inject:  1232   ID:987 CYC:1232 SRC:19 DST:7 ADR:0x00d87040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 990
+Inject:  1232   ID:988 CYC:1232 SRC:20 DST:13 ADR:0x00d8d040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 991
+Inject:  1234   ID:977 CYC:1220 SRC:43 DST:26 ADR:0x00dabbc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1235   ID:967 CYC:1209 SRC:51 DST:2 ADR:0x00d33bc0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1236   ID:992 CYC:1236 SRC:9 DST:10 ADR:0x1f14a740 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 1027
+Inject:  1237   ID:985 CYC:1229 SRC:31 DST:23 ADR:0x00d9f040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1241   ID:993 CYC:1241 SRC:24 DST:31 ADR:0x00d9fb80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 994
+Inject:  1246   ID:991 CYC:1235 SRC:13 DST:20 ADR:0x00d8d040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1246   ID:995 CYC:1246 SRC:28 DST:8 ADR:0x0035c6c0 TYP:ReadResp SrcType:L2 Cache DstType:L1 Instruction Cache NDEP:0
+Inject:  1247   ID:996 CYC:1247 SRC:10 DST:12 ADR:0x00d4c300 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 1004
+Inject:  1248   ID:997 CYC:1248 SRC:15 DST:41 ADR:0x00d69b80 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 1005
+Inject:  1248   ID:981 CYC:1225 SRC:49 DST:28 ADR:0x00db1040 TYP:ReadResp SrcType:L2 Cache DstType:L1 Data Cache NDEP:0
+Inject:  1249   ID:998 CYC:1249 SRC:24 DST:31 ADR:0x00d9fbc0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 1007
+Inject:  1250   ID:1003 CYC:1250 SRC:14 DST:41 ADR:0x00d69040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 1014
+Inject:  1250   ID:1002 CYC:1250 SRC:16 DST:53 ADR:0x00d75040 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 1013

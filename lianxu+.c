@@ -26,7 +26,7 @@ while(printf("请输入要统计的数据名(区分大小写  输入ctrl+Z结束程序)\n")&&scanf("%
 {   int choice; 
     printf("请问是否需要该数据连续的具体情况，如果是请输入1,如只需简略情况请输入2\n");
     scanf("%d",&choice);int adr1,adr2,adrs;
-    long a[30000][3],tem;int count=0,num1=0,loc1,grop1[50000][2],time1=0,num2=0,time2=0,loc2,grop2[50000][2],count2=0,b[30000],i,j;//a[][]第一列存核的序号，第二列存typ，第三列存adr 
+    long a[30000][4],tem;int count=0,num1=0,loc1,grop1[50000][3],time1=0,num2=0,time2=0,loc2,grop2[50000][2],count2=0,b[30000],i,j;//a[][]第一列存核的序号，第二列存typ，第三列存adr 
     char szTest[1000] = {0};  char typ[50],adr[10];
     int len = 0;                                                             //          //                                                                     //     //     //       // 
     FILE *fp = fopen("text.txt", "r");  //在这里修改文件路径！！！！ // 
@@ -118,7 +118,7 @@ while(printf("请输入要统计的数据名(区分大小写  输入ctrl+Z结束程序)\n")&&scanf("%
 			    	
 				}	
 		}
-		}
+		} 
 		count++;
     }  num1=count;num2=count2;
    fprintf(fptr,"%d组数据中 \n",count);
@@ -128,7 +128,7 @@ while(printf("请输入要统计的数据名(区分大小写  输入ctrl+Z结束程序)\n")&&scanf("%
     	if(a[count][0]==a[count+1][0]&&a[count][1]==a[count+1][1]&a[count][2]==a[count+1][2])
 		{   
 		    count++;
-			time1=time1+1;grop1[time1][0]+=2;
+			time1=time1+1;grop1[time1][0]+=2;grop1[time1][2]=count;
 			grop1[time1][1]=a[count][0];
 			while(a[count][0]==a[count+1][0]&&a[count][1]==a[count+1][1]&a[count][2]==a[count+1][2])
 			{
@@ -137,8 +137,7 @@ while(printf("请输入要统计的数据名(区分大小写  输入ctrl+Z结束程序)\n")&&scanf("%
 			}
 		}
 	}
-	for(i=0;i++;i<num1)
-    fprintf(fptr,"%d %d %d\n",a[i][0],a[i][1],a[i][2]);
+	
 	fprintf(fptr,"共出现了%d次连续相同的%s\n****************************我是分割线*****************************\n\n",time1,name);
 if(choice==1)	
     
@@ -146,7 +145,7 @@ if(choice==1)
 	for(count=1;count<=time1;count++)
 	{
 		//printf("第%d次连续重复，重复出现的数据是%d,重复出现了%d次\n",count,grop1[count][1],grop1[count][0]);//如果觉得打印太慢了可以吧这行注释掉 
-		fprintf(fptr,"%d：  %d\n",count,grop1[count][0]);
+		fprintf(fptr,"%d：  %d  在第%d行\n",count,grop1[count][0],grop1[count][2]);
 	}
     } 
 	fclose(fp); 
