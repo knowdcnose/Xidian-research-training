@@ -1,0 +1,9 @@
+Inject:  0   ID:8 CYC:0 SRC:14 DST:26 ADR:0xffffffaf TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 33
+Inject:  0   ID:9 CYC:0 SRC:16 DST:26 ADR:0xfffffffa TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 34
+Inject:  0   ID:7 CYC:0 SRC:17 DST:26 ADR:0xfffffffa TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 32
+Inject:  0   ID:8 CYC:0 SRC:14 DST:26 ADR:0x0085acc0 TYP:InvalidateReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 33
+Inject:  0   ID:9 CYC:0 SRC:16 DST:26 ADR:0x0085acc0 TYP:InvalidateResp SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 34
+Inject:  0   ID:7 CYC:0 SRC:17 DST:26 ADR:0x008577c0 TYP:ReadReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 32
+Inject:  0   ID:8 CYC:0 SRC:14 DST:26 ADR:0x0085acc0 TYP:DowngradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 33
+Inject:  0   ID:9 CYC:0 SRC:16 DST:26 ADR:0x0085acc0 TYP:DowngradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 34
+Inject:  0   ID:7 CYC:0 SRC:17 DST:26 ADR:0x0085acc0 TYP:DowngradeReq SrcType:L1 Data Cache DstType:L2 Cache NDEP:1 32
