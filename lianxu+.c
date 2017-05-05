@@ -21,7 +21,7 @@ int StringFind(const char *pSrc, const char *pDst)
 }  
 int main()  
 {  printf("请先修改文件路径！！\n")  ;
- char name[6];FILE *fptr = fopen("连续情况.txt", "w");
+ char name[6];FILE *fptr = fopen("DST_condition.txt", "w");
 while(printf("请输入要统计的数据名(区分大小写  输入ctrl+Z结束程序)\n")&&scanf("%s",name)!=EOF)
 {   int choice; 
     printf("请问是否需要该数据连续的具体情况，如果是请输入1,如只需简略情况请输入2\n");
